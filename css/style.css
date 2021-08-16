@@ -1,0 +1,227 @@
+/* FUENTES */
+
+@font-face {
+    font-family: 'ModernRegular';
+    src: url('mod20-webfont.eot');
+    src: url('mod20-webfont.eot?#iefix') format('embedded-opentype'), 
+         url('mod20-webfont.woff2') format('woff2'), 
+         url('mod20-webfont.woff') format('woff'), 
+         url('mod20-webfont.ttf')  format('truetype'), 
+         url('mod20-webfont.svg#svgFontName') format('svg'); 
+}
+
+@font-face {
+         font-family: 'LiberationRegular';
+    src: url ('liberationsans-regular-webfont.eot');
+    src: url('liberationsans-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+         url('liberationsans-regular-webfont.woff2') format('woff2'), 
+         url('liberationsans-regular-webfont.woff') format('woff'), 
+         url('liberationsans-regular-webfont.ttf')  format('truetype'), 
+         url('liberationsans-regular-webfont.svg#svgFontName') format('svg'); 
+}
+
+@font-face {
+         font-family: 'LiberationItalic';
+    src: url ('liberationsans-italic-webfont.eot');
+    src: url('liberationsans-italic-webfont.eot?#iefix') format('embedded-opentype'), 
+         url('liberationsans-italic-webfont.woff2') format('woff2'), 
+         url('liberationsans-italic-webfont.woff') format('woff'), 
+         url('liberationsans-italic-webfont.ttf')  format('truetype'), 
+         url('liberationsans-italic-webfont.svg#svgFontName') format('svg'); 
+}
+
+/* Estilos Generales */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+body {
+    margin: 0;
+    box-sizing:border-box;
+}
+
+header, main {
+    font-family: 'LiberationRegular';
+    box-sizing:border-box;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+/* Logo */
+
+#logo {
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    margin: 15px;
+}
+
+/* BARRA DE NAVEGACIÓN
+Cosas por hacer: 
+     - centrar verticalmente items de NAV
+     - Border al rededor de NAV
+*/
+
+nav {
+    display: inline-flex;
+    float: right;
+}
+
+nav ul {
+    margin-right: 15px;
+    display: table;
+    height:70px;
+
+}
+
+nav ul li {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+nav ul li a{
+    padding: 20px;
+    font-size: 20px;
+    margin: 0 5 0 5px;
+
+}
+
+nav ul li a:hover {
+    background-color: #FCBF49;
+    color: white;
+    padding: 20px;
+}
+
+
+/* IMAGEN de fondo index.html */
+
+.banner {
+    width: 100;
+    display: inline-flex;
+}
+
+
+
+/* Títulos */
+
+h1 {
+    font-size: 50px;
+    font-family: 'ModernRegular';
+    letter-spacing: 1px;
+    color: #003049;
+}
+
+/* Párrafos */
+
+p {
+    color: #003049;
+}
+
+/* Video index */
+
+.VideoIndex iframe {
+    margin: 10px;
+}
+
+/* Tabla */
+
+#table-title {
+    height: 40px;
+    background-color: #FCBF49;
+    color: white;
+}
+
+table, tr, td{
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table tr td img {
+    width: 300px;
+    align-content: center;
+}
+
+table tr td{
+    width: 300px;
+}
+
+.info {
+    height: 100px;
+    display: list-item;
+    text-align: left;
+    line-height: 25px;
+}
+
+.titulo-info {
+    font-size: 20px;
+    font-family: 'LiberationItalic';
+}
+
+/* Formulario */
+
+.form {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#canton {
+    padding: 5px;
+}
+
+
+.contact {
+    background-color: #EAE2B7;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.text, .canton, .check-form, .button-form {
+    margin: 5px;
+    padding: 10px;
+}
+
+input[type=text], input[type=email]  {
+    padding: 10px;
+    border: 2px solid #EAE2B7;
+}
+
+
+
+
+
+
+/* Footer */
+
+/* Por hacer: 
+    -centrar el texto
+    - eliminar borde costados
+
+*/
+
+#foot {
+    background-color: #d62828;
+    height: 50;
+}
+
+
+#foot li {
+    padding: 0 20 0 20px;
+}
+
+
+#foot li a {
+    color: white;
+}
