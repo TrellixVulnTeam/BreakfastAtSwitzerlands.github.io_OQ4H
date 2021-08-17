@@ -30,6 +30,16 @@
          url('liberationsans-italic-webfont.svg#svgFontName') format('svg'); 
 }
 
+@font-face {
+         font-family: 'liberationsansBold';
+    src: url ('liberationsans-bold-webfont.eot');
+    src: url('liberationsans-bold-webfont.eot?#iefix') format('embedded-opentype'), 
+         url('liberationsans-bold-webfont.woff2') format('woff2'), 
+         url('liberationsans-bold-webfont.woff') format('woff'), 
+         url('liberationsans-bold-webfont.ttf')  format('truetype'), 
+         url('liberationsans-bold-webfont.svg#svgFontName') format('svg'); 
+}
+
 /* Estilos Generales */
 a {
     text-decoration: none;
@@ -56,7 +66,7 @@ ul {
 
 #logo {
     width: 70px;
-    height: 70px;
+    height: 50px;
     display: inline-flex;
     margin: 15px;
 }
@@ -85,16 +95,14 @@ nav ul li {
 }
 
 nav ul li a{
-    padding: 20px;
-    font-size: 20px;
-    margin: 0 5 0 5px;
-
+    padding: 15px;
+    font-size: 18px;
 }
 
 nav ul li a:hover {
     background-color: #FCBF49;
     color: white;
-    padding: 20px;
+    padding: 15px;
 }
 
 
@@ -165,27 +173,15 @@ table tr td{
 
 /* Formulario */
 
+/* GENERAL OVERVIEW */
 .form {
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-
-#canton {
-    padding: 5px;
-}
-
-
-.contact {
-    background-color: #EAE2B7;
-    padding: 10px;
-    text-align: center;
-    color: white;
-    width: 100%;
+    align-items: center;    
 }
 
 .text, .canton, .check-form, .button-form {
@@ -193,11 +189,84 @@ table tr td{
     padding: 10px;
 }
 
+
+/* title CONTACT */
+.contact {
+    background-color: #EAE2B7;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    width: 700px;
+    margin: auto;
+    margin-top: 5px;
+    font-family: 'liberationsansBold';
+    letter-spacing: 1.5px;
+}
+
+/* SELECT - CANTON */
+.canton {
+    display: inline-flex;
+    width: 100%;
+    padding: 10px;
+}
+
+#canton-title {
+    width: 200px;
+    padding: 5px;
+}
+
+/* Boton select */
+
+#canton { 
+    padding: 10px;
+    cursor: pointer;
+    background-color: #EAE2B7;
+    appearance: none;
+    border: none;
+}
+
+
+  
+
+/* NAME AND MAIL */
+
 input[type=text], input[type=email]  {
     padding: 10px;
     border: 2px solid #EAE2B7;
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
 }
 
+/* RADIO AND CHECK */
+.check-form {
+    width: 90%;
+    height: 30px;
+}
+
+#query {
+    background-color: #EAE2B7;
+    padding: 12px;
+    width: 100%;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+/* SUBMIT AND RESET */
+
+.button-form {
+    border: none;
+    display: inline-flex;
+    width: 100%;
+    max-width: 200px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #EAE2B7;
+    font-family: 'liberationsansBold';
+    letter-spacing: 1.5px;
+    color: white;
+}
 
 
 
