@@ -65,8 +65,8 @@ ul {
 /* Logo */
 
 #logo {
-    width: 70px;
-    height: 50px;
+    width: 100px;
+    height: 90px;
     display: inline-flex;
     margin: 15px;
 }
@@ -92,11 +92,13 @@ nav ul {
 nav ul li {
     display: table-cell;
     vertical-align: middle;
+    text-transform: uppercase;
 }
 
 nav ul li a{
     padding: 15px;
     font-size: 18px;
+    
 }
 
 nav ul li a:hover {
@@ -105,14 +107,47 @@ nav ul li a:hover {
     padding: 15px;
 }
 
+/* Footer */
+
+/* Por hacer: 
+    -centrar el texto
+    - eliminar borde costados
+
+*/
+
+#foot {
+    background-color: #d62828;
+    height: 50;
+    margin-top: 20px;   
+}
+
+
+
+#foot li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#foot li a {
+    color: white;
+    font-family: liberationsansBold;
+}
+
 
 /* IMAGEN de fondo index.html */
 
 .banner {
-    width: 100;
-    display: inline-flex;
+    display: inline-block;
+    
 }
 
+#banner-index {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
 
 
 /* Títulos */
@@ -122,6 +157,11 @@ h1 {
     font-family: 'ModernRegular';
     letter-spacing: 1px;
     color: #003049;
+    margin: 0;
+}
+
+.subtitulos {
+    font-size: 20px;
 }
 
 /* Párrafos */
@@ -130,10 +170,24 @@ p {
     color: #003049;
 }
 
+
+/* VIDEO Y TEXTO INDEX */
+
+.video-texto {
+    display: inline-flex;
+}
+
+#dingdong {
+    width: 400px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
 /* Video index */
 
 .VideoIndex iframe {
     margin: 10px;
+    width: 400px;
 }
 
 /* Tabla */
@@ -170,6 +224,15 @@ table tr td{
     font-size: 20px;
     font-family: 'LiberationItalic';
 }
+
+.td-padding {
+    padding-bottom: 50px;
+}
+
+
+
+
+
 
 /* Formulario */
 
@@ -226,9 +289,6 @@ table tr td{
     border: none;
 }
 
-
-  
-
 /* NAME AND MAIL */
 
 input[type=text], input[type=email]  {
@@ -271,26 +331,3 @@ input[type=text], input[type=email]  {
 
 
 
-
-/* Footer */
-
-/* Por hacer: 
-    -centrar el texto
-    - eliminar borde costados
-
-*/
-
-#foot {
-    background-color: #d62828;
-    height: 50;
-}
-
-
-#foot li {
-    padding: 0 20 0 20px;
-}
-
-
-#foot li a {
-    color: white;
-}

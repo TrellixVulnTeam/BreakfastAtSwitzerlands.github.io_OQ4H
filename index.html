@@ -5,30 +5,32 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Breakfast at Switzerland's</title>
 </head>
 
 <body>
   <header>
 
-    <div class="header">
+    <div class="head">
       <!-- LOGO -->
 
       <a href="./index.html">
         <div id="logo">
-          <img src="medios/LogoVertical.png" alt="Logo"> <!-- Logo -->
+          <img src="medios/LOGO2.png" alt="Logo"> <!-- Logo -->
         </div>
       </a>
 
       <!-- NAVIGATION -->
       <nav>
         <ul>
-          <li><a href="./index.html"> Home </a></li>
-          <li><a href="./About.html"> About </a></li>
-          <li><a href="./Our-products.html"> Our Products </a></li>
-          <li><a href="./Contact.html"> Contact </a></li>
-          <li><a href="./Cart.html"> Cart </a></li>
+          <li>
+            <a href="index.html">Home</a>
+            <a href="paginas/about.html">About</a>
+            <a href="paginas/Our-products.html">Our products</a>
+            <a href="paginas/Contact.html">Contact</a>
+            <a href="paginas/Cart.html">Cart</a>
+          </li>
         </ul>
       </nav>
 
@@ -42,18 +44,18 @@
     <!-- IMAGEN BANNER PRINCIPAL
     
     Falta por hacer:
-  
-      -achicar
+
       -poner H1 encima
     
     -->
 
     <section>
       <div class="banner">
-        <img src="medios/banner.png" alt="Desayuno"> <!-- Img de fondo -->
+        <img src="medios/banner.png" alt="Desayuno" id="banner-index"> <!-- Img de fondo -->
+
+        <h1 class="titulo">Send a Breakfast</h1>
+        <a href="./Our-products.html">See our products</a>
       </div>
-      <h1 class="titulo">Send a Breakfast</h1>
-      <a href="./Our-products.html">See our products</a>
     </section>
 
     <!-- Seccion 1-->
@@ -62,18 +64,21 @@
 
       <!-- VIDEO -->
 
-      <div class="VideoIndex">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/C2gEv_9-p6I" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-      </div>
+      <div class="video-texto">
+        <div class="VideoIndex">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/C2gEv_9-p6I" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
 
-      <article>
-        <h3>Ding Dong... ¡Your breakfast is here!</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti rem velit facilis sed voluptatem aperiam
-          aspernatur sit ducimus esse assumenda nam, magni unde mollitia, repellat a at culpa magnam rerum?</p>
-      </article>
+        <article id="dingdong">
+          <h3 class="subtitulos">Ding Dong... ¡Your breakfast is here!</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti rem velit facilis sed voluptatem aperiam
+            aspernatur sit ducimus esse assumenda nam, magni unde mollitia, repellat a at culpa magnam rerum?</p>
+        </article>
+
+      </div>
 
       <article>
         <h2>Why choose us:</h2>
