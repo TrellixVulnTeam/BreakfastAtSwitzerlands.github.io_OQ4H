@@ -6,14 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/d085048c72.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;500&display=swap" rel="stylesheet"> 
     <title>Breakfast at Switzerland's</title>
 </head>
 
 <body>
     <header>
         <a href="../index.html">
-            <div id="logo">
-                <img src="../medios/LOGO2.png" alt="Logo"> <!-- Logo -->
+            <div class="logo">
+                <img src="https://i.ibb.co/VtcjpkC/LOGO2-min.png" alt="LOGO2-min"> <!-- Logo -->
             </div>
         </a>
 
@@ -29,10 +33,21 @@
     </header>
 
     <main>
-
-        <div class="form">
-            <h2 class="contact">CONTACT US</h2>
-            <form action="">
+        <div id="contact-container">
+            <div class="contact-column1">
+                <div class="border-contact">
+                    <h2 class="contact-title">CONTACT US</h2>
+                    <div class="contact-data">
+                        <p> <i class="fas fa-coffee" class="iconos"></i> Breakfast at Switzerland's</p>
+                        <p> <i class="fas fa-map-marker-alt" class="iconos"></i>Avenida Siempreviva 723</p>
+                        <p> <i class="fas fa-at" class="iconos"></i>breakfast.ch@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contenedor-imgabout">
+                    <img src="https://i.ibb.co/dW6HP5q/LOGO1-min.png" alt="LOGO1-min"  class="about-image" id="about-logoimg">
+                </div>
+            </div>
+            <form action="get">
                 <div class="text">
                     <label for="name"></label>
                     <input type="text" class="text" placeholder="Name" required>
@@ -73,17 +88,29 @@
                     </select>
                 </div>
 
-                <div class="check-form">
-                    <label for="radio" id="query">What's your query about</label>
-                    <input type="radio" name="information" id="checkbox"> General information
-                    <input type="radio" name="promotions"> Promotions
-                    <input type="radio" name="payment"> Payment and cart
+                <div class="check-form radio-form">
+                    <span id="query">What's your query about</span>
+                    <div class="radio-buttons">
+                        <label class="radio-container">
+                            <input type="radio" name="checkmark" value="information"> General information
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="radio-container">
+                            <input type="radio" name="checkmark" value="promotions"> Promotions
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="radio-container">
+                            <input type="radio" name="checkmark" value="payment"> Payment and cart
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
                 </div>
-
-                <div class="check-form">
-                    <label for="newsletter">Sign me up for the Newsletter</label>
-                    <input type="checkbox" name="newsletter" id="newsletter">
-                </div>
+                <textarea name="mensaje" id="mensaje" cols="70" rows="5"
+                    placeholder="Place your message here"></textarea>
+                <label class="container" id="newsletter">Sign me up for the Newsletter
+                    <input type="checkbox" name="newsletter">
+                    <span class="checkmark1"></span>
+                </label>
 
                 <div class="s-r-buttons">
                     <label for="submit"></label>
@@ -91,8 +118,11 @@
 
                     <label for="reset"></label>
                     <input type="reset" class="button-form" value="RESET">
-                </div> 
+                </div>
             </form>
+            <div id="img-contacto">
+                <img src="../medios/img-contact.jpg" alt="Breakfast">
+            </div>
         </div>
 
 
@@ -103,9 +133,9 @@
     <footer>
         <div id="foot">
             <ul>
-                <li><a href="...">LEGAL</a></li>
-                <li><a href="./Contact.html">CONTACT</a></li>
-                <li><a href="...">SITE MAP</a></li>
+                <li><a href="#">LEGAL</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+                <li><a href="#">SITE MAP</a></li>
             </ul>
         </div>
 
