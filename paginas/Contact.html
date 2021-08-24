@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/d085048c72.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;500&display=swap" rel="stylesheet">
     <title>Breakfast at Switzerland's</title>
 </head>
 
@@ -17,7 +17,7 @@
     <header>
         <a href="../index.html">
             <div class="logo">
-                <img src="https://i.ibb.co/VtcjpkC/LOGO2-min.png" alt="LOGO2-min"> <!-- Logo -->
+                <img src="https://i.postimg.cc/Pq0FxqG3/LOGO2-min.png" alt="Logo-vertical"> <!-- Logo -->
             </div>
         </a>
 
@@ -32,22 +32,38 @@
         </nav>
     </header>
 
-    <main>
+    <main class="main">
         <div id="contact-container">
             <div class="contact-column1">
                 <div class="border-contact">
-                    <h2 class="contact-title">CONTACT US</h2>
+                    <h1 id="contact-title">CONTACT US</h1>
                     <div class="contact-data">
-                        <p> <i class="fas fa-coffee" class="iconos"></i> Breakfast at Switzerland's</p>
-                        <p> <i class="fas fa-map-marker-alt" class="iconos"></i>Avenida Siempreviva 723</p>
-                        <p> <i class="fas fa-at" class="iconos"></i>breakfast.ch@gmail.com</p>
+                        <ul>
+                            <li>
+                                <i class="fas fa-coffee" class="iconos"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt" class="iconos"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-at" class="iconos"></i>
+                            </li>
+                        </ul>
+                        <div class="data">
+                            <span> Breakfast at Switzerland's </span>
+                            <span>Avenida Siempreviva 723 </span>
+                            <span>breakfast.ch@gmail.com </span>
+                        </div>
                     </div>
                 </div>
                 <div class="contenedor-imgabout">
-                    <img src="https://i.ibb.co/dW6HP5q/LOGO1-min.png" alt="LOGO1-min"  class="about-image" id="about-logoimg">
+                    <img src="https://i.postimg.cc/PJj3WF51/LOGO1-min.png" alt="Logo" class="about-image"
+                        id="about-logoimg">
                 </div>
             </div>
-            <form action="get">
+
+
+            <form id="contact-form" action="get">
                 <div class="text">
                     <label for="name"></label>
                     <input type="text" class="text" placeholder="Name" required>
@@ -105,9 +121,11 @@
                         </label>
                     </div>
                 </div>
+
                 <textarea name="mensaje" id="mensaje" cols="70" rows="5"
                     placeholder="Place your message here"></textarea>
-                <label class="container" id="newsletter">Sign me up for the Newsletter
+
+                <label class="container-newsletter" id="newsletter">Sign me up for the Newsletter
                     <input type="checkbox" name="newsletter">
                     <span class="checkmark1"></span>
                 </label>
@@ -121,7 +139,7 @@
                 </div>
             </form>
             <div id="img-contacto">
-                <img src="../medios/img-contact.jpg" alt="Breakfast">
+                <img src="https://i.postimg.cc/05YHkxVn/img-contact.jpg" alt="Breakfast">
             </div>
         </div>
 

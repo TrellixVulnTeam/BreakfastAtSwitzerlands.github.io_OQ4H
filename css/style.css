@@ -15,6 +15,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 * {
@@ -36,6 +37,10 @@ ul {
 
 .head {
     height: 100px;
+}
+
+.main {
+    min-height: 600px;
 }
 
 /* Logo */
@@ -111,8 +116,8 @@ h1, #titulo-products {
 
 .subtitulo-1 {
     font-size: 3rem;
-    letter-spacing: 0.2rem;
-    margin: 15px auto;
+    letter-spacing: 0.1rem;
+    margin: 20px auto;
     color: #FCBF49;
 }
 
@@ -126,11 +131,12 @@ h1, #titulo-products {
 p {
     text-align: justify;
     font-size: 1.8rem;
-    line-height: 35px;
+    line-height: 30px;
+    color: #003049;
 }
 
 
-/* INDEX */
+/* INDEX TITLE */
 
 .boton-index {
     background-color: #003049;
@@ -153,7 +159,7 @@ p {
     left: 1.5%;
 }
 
-/* IMAGEN de fondo index.html */
+/* TITLE-BACK IMAGE INDEX */
 
 #banner {
     position: relative;
@@ -166,7 +172,7 @@ p {
 }
 
 
-/* VIDEO Y TEXTO INDEX */
+/* VIDEO Y TEXTO IN INDEX */
 
 #video-texto {
     display: flex;
@@ -174,8 +180,8 @@ p {
 
 
 .Video-Index, #ding-dong, #column-index {
-        flex-direction: column;
-        padding: 10px;
+    flex-direction: column;
+    padding: 10px;
 }
 
 #video-texto #ding-dong {
@@ -189,7 +195,38 @@ p {
 }
 
 
-/* COLUMNA SEARCH & SPECIALS */
+/* COLUMN SEARCH & SPECIALS */
+
+/* search engine */
+
+.search-engine {
+    display: inline-block;
+}
+
+#form-search {
+    margin: 10px 1px 10px 10px;
+}
+
+#search {
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+.search-button {
+    padding: 5px;
+    margin-left: 2px;
+    border: none;
+    background-color: white;
+    color: #003049;
+}
+
+.search-button:hover {
+    cursor: pointer;
+}
+
+
+/* special section */
 
 #column-index {
     background-color: #FCBF49;
@@ -197,15 +234,17 @@ p {
     position: relative;
     right: 1%;
     padding: 20px;
-    height: 500px;
+    height: 600px;
     width: 450px;
 }
 
-#index-special {
+#index-special span {
     font-size: 2rem;
+    padding-top: 15px;
+    display: flex;
 }
 
-#index-specialTitle {
+#index-special h3 {
     font-size: 4.5rem;
     text-align: center;
     padding: 5px;
@@ -218,69 +257,148 @@ p {
 
 .img-special {
     width: 90%;
-    margin: 27px;
-    outline: 5px solid white;
+    margin: 15px;
+    outline: 3px solid white;
+}
+
+#index-special p {
+    line-height: 23px;
+}
+
+.special-button {
+    background-color: white;
+    padding: 5px;
+    margin: 15px auto;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.special-button a {
+    color: #003049;
+    padding: 10px;
+    width: 150px;
+}
+
+.special-button:hover {
+    background-color: #003049;
+    color: #FCBF49;
+}
+
+.special-button a:hover {
+    color: #FCBF49;
 }
 
 
+/* WHY CHOOSE US SECTION */
+
+#why-chose {
+    position: relative;
+    margin-top: -250px;
+    left: 15px;
+    max-width: 1100px;
+}
+
+#reason-container {
+    color: #003049;
+    position: relative;
+    left: 50px;
+}
+
+.reason {
+    text-align: center;
+    margin: 0 20px;
+    padding-top: 20px;
+}
+
+.reason-title, .reason i {
+    font-size: 2rem;  
+}
+
+.reason-hover:hover{
+    color: #FCBF49; 
+}
+
+.reason-title {
+    margin-bottom: 15px;
+
+}
+
+.reason i {
+    margin: 10px auto;
+}
+
+.p-reason {
+    font-size: 1.5rem;
+    margin: 5px 10px;
+    width: 300px;
+    line-height: 2rem;
+}
+
+
+/* IMAGEN BOTTOM */
 .banner-indexdown img {
     width: 100%;
+    margin-top: -20px;
 }
 
 
 
 
-/* ABOUT SECTION */
 
-.about-main {
-    display: inline-flex;
+
+
+
+
+/* ABOUT PAGE */
+
+#about-main {
+    display: flex;
     width: 100%;
     margin-top: 10px;
 }
 
-.column-about2 {
-    width: 75%;
-    padding: 10px;
-    height: 500px;
-    margin-left: 10px;
-}
 
-.column2 {
+.about-column1 {
     width: 25%;
 }
 
-#about2 {
-    margin-top: 5px;
-    margin-bottom: 0;
-}
-
-#about-title {
+.about-column1 h1 {
     font-size: 40px;
     background-color: #FCBF49;
     color: white;
     width: 300px;
     padding: 25px 10px 10px 20px;
     margin: 5px 0 0 20px;
-    height: 450px;
+    height: 460px;
+}
+
+.about-column2 {
+    width: 50%;
+    height: 500px;
+    margin-left: 40px;
 }
 
 .about-image {
     display:block;
     margin:auto;
-    padding-top: 2px;
-    width: 40%;
+    padding-top: 20px;
+    width: 30%;
 }
 
 .about-text {
     width: 94%;
-    margin-top: 30px;
 }
 
 
 /* grid */
 
 .grid {
-    margin: 0 10px 0 10px;
+    width: 40%;
+    position: relative;
+    left: 15px;
   }
   
   
@@ -292,7 +410,13 @@ p {
 
 
 
-/* CONTACT SECTION */
+
+
+
+
+
+
+/* CONTACT PAGE */
 
 #contact-container { 
     display: inline-flex;
@@ -314,44 +438,55 @@ p {
 .border-contact {
     border: white solid 2px;
     max-width: 80%;
-    margin: 30px 0 0 40px;
+    position: relative;
+    margin: 3.5rem auto;
+    padding: 25px;
 }
 
 /* title CONTACT */
-.contact-title {
+#contact-title {
     background-color: #EAE2B7;
     color: white;
     letter-spacing: 1.5px;
-    padding: 5px;
+    margin: 0 0 10px 0;
     text-align: center;
+    font-size: 2.5rem;
 }
 
-.contact-data p{
-    margin-left: 10px;
-    line-height: 15px;
+.contact-data {
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    display: inline flex;
+    margin-left: 1.8rem;
 }
 
-.fa-at, .fa-map-marker-alt, .fa-coffee {
-    font-size: 20px;
-    margin-right: 5px;
-}
 
 .iconos {
-    display: flex;
+    display: block;
+    margin: 0 auto;
+    margin-right: 5px auto;
+}
+
+.data {
+    text-align: left;
+    margin-left: 1rem;
 }
 
 #about-logoimg {
-    margin-top: 60px;
+    margin-top: 50px;
+    height: 250px;
+    width: auto;
+
 }
 
 /* GENERAL OVERVIEW FORMULARIO*/
-form {
+#contact-form {
     width: 600px;
-    height: 500px;
     margin: 40px 0 35px 35px;
+    font-size: 1.7rem;
+    color: #003049;
 }
 
 /* NAME AND MAIL */
@@ -361,17 +496,16 @@ form {
 }
 
 input[type=text], input[type=email]  {
-    padding: 10px;
+    padding: 20px;
     border: 2px solid #EAE2B7;
     width: 550px;
-    height: 30px;
+    height: 50px;
     border-radius: 10px;
 }
 
 /* SELECT - CANTON */
 .canton {
     display: inline-flex;
-    width: 550px;
     padding: 10px;
 }
 
@@ -389,91 +523,32 @@ input[type=text], input[type=email]  {
     background-color: #EAE2B7;
     appearance: none;
     border: none;
-    margin-left: 70px;
+    margin-left: 95px;
     outline: none;
 }
 
 #canton * {
-    color: white;
     padding: 15px;
 } 
 
 
-/* RADIO AND CHECK */
+/* RADIO AND CHECK BUTTONS */
+
 .check-form input {
     opacity: 0;
     cursor: pointer;
   }
 
-
-  /* CHECKFORM */
-  
-  .container {
-    display: block;
-    position: relative;
-    padding-left: 25px;
-    margin: 15px 0 12px 0;
-    cursor: pointer;
-    max-width: 215px;
-  }
-  
-  .container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-  }
-  
-  .checkmark1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 20px;
-    width: 20px;
-    background-color: #eee;
-}
-  
-  .container:hover input ~ .checkmark1 {
-    background-color: #ccc;
-  }
-  
-  .container input:checked ~ .checkmark1 {
-    background-color: #EAE2B7;
-  }
-  
-  .checkmark1:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-  
-  .container input:checked ~ .checkmark1:after {
-    display: block;
-  }
-  
-  .container .checkmark1:after {
-    left: 6.5px;
-    top: 2px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    transform: rotate(45deg);
-  }
-
-
+/* RADIO SECTION */
 
 #query {
     background-color: #EAE2B7;
     padding: 15px;
     padding-right: 80px;
-    width: 200px;
-    height: 20px;
     display: inline-block;
     border-radius: 10px;
-    font-family: 'Urbanist', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
+    letter-spacing: 1px;
     color: white;
 }
 
@@ -489,10 +564,8 @@ input[type=text], input[type=email]  {
     line-height: 20px;  
 }
 
-
-
  .radio-container {
-    display: block;
+    display: block ruby;
     position: relative;
     padding-left: 35px;
     margin-bottom: 12px;
@@ -546,33 +619,81 @@ input[type=text], input[type=email]  {
   } 
 
 
-
-input[type=radio]:checked {
+  input[type=radio]:checked {
     visibility:hidden;
-}
+  }
 
-/* textarea */
-
-#mensaje {
-    border: 1px solid #EAE2B7;
-    border-radius: 10px;
-    padding: 10px;
-    font-family: 'LiberationRegular';
-    width: 550px;
-    resize: none;
-    margin-top: 15px;
-}
-/* NEWSLETTER */
-
-.check-form #newsletter { 
-    font-size: 20px;
-}
+  /* NEWSLETTER AND CHECK BUTTON SECTION */
+  
+  .container-newsletter {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    top: 25px;
+  }
+  
+  .container-newsletter input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+  }
+  
+  .container-newsletter:hover input ~ .checkmark1 {
+    background-color: #ccc;
+  }
+  
+  .container-newsletter input:checked ~ .checkmark1 {
+    background-color: #EAE2B7;
+  }
+  
+  .checkmark1:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .container-newsletter input:checked ~ .checkmark1:after {
+    display: block;
+  }
+  
+  .container-newsletter .checkmark1:after {
+    left: 6.5px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
 
 input[type=checkbox] {
     position: relative;
   width: 15px;
   height: 15px;
   border: 1px solid #808080;
+}
+
+/* TEXTAREA */
+
+#mensaje {
+    border: 1px solid #EAE2B7;
+    border-radius: 10px;
+    padding: 10px;
+    width: 550px;
+    resize: none;
+    margin-top: 15px;
+    outline: none;
 }
 
 /* SUBMIT AND RESET */
@@ -593,14 +714,18 @@ input[type=checkbox] {
 
 .s-r-buttons {
     text-align: center;
+    position: relative;
+    top: 50px;
 }
 
 input[type=submit] {
     margin-right: 5px;
+    font-weight: 700;
 }
 
 input[type=reset] {
     margin-left: 5px;
+    font-weight: 700;
 }
 
 
