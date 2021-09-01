@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://kit.fontawesome.com/d085048c72.js" crossorigin="anonymous"></script>
@@ -46,102 +46,112 @@
   <main class="main">
 
     <section>
-      <div id="banner">
-        <img src="https://i.postimg.cc/QtF2gL4F/banner-min.jpg" alt="breakfast" class="banner-index">
-        <!-- Img de fondo -->
+      <div class="titles">
         <h1 class="titulo">Send a Breakfast</h1>
         <a class="boton-index" href="paginas/Our-products.html">See our products</a>
       </div>
     </section>
 
-    <!-- Seccion 1-->
+    <!-- GRID -->
 
-    <section>
+    <div class="grid">
 
-      <!-- VIDEO -->
+      <div class="Video-index">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/C2gEv_9-p6I" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
 
-      <div id="video-texto">
+      <div class="dingdong">
+        <h3 class="subtitulo-1">Ding Dong... ¡Your breakfast is here!</h3>
+        <p class="about-text">If you are looking for an innovative yet heartful gift, ¡you have come to the right
+          place! Make someone's morning perfect, surprise your loved ones with one of our breakfast gift boxes
+          delivered directly to their door. We use fresh, high-quality products to ensure the best of experiences.
+          After all, nothing beats waking up to a hot coffee and a delicious breakfast (¡without even moving a
+          finger!) </p>
+      </div>
 
-        <div class="Video-Index">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/C2gEv_9-p6I" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+      <!-- COLUMN RIGHT -->
+
+      <div class="columna-index">
+
+        <!-- SEARCH ENGINE  -->
+        <div class="search-engine">
+          <form id="form-search">
+            <input type="search" role="search" id="search" placeholder="Search">
+            <button class="search-button">Search</button>
+          </form>
         </div>
 
-        <article id="ding-dong">
-          <h3 class="subtitulo-1">Ding Dong... ¡Your breakfast is here!</h3>
-          <p class="about-text">If you are looking for an innovative yet heartful gift, ¡you have come to the right
-            place! Make someone's morning perfect, surprise your loved ones with one of our breakfast gift boxes
-            delivered directly to their door. We use fresh, high-quality products to ensure the best of experiences.
-            After all, nothing beats waking up to a hot coffee and a delicious breakfast (¡without even moving a
-            finger!) </p>
+        <!-- MONTH SPECIAL -->
+
+        <article id="index-special">
+          <span>This month's Special:</span>
+          <h3>El Argento</h3>
+
+          <img src="https://i.postimg.cc/d1kPHXFX/el-argento1.jpg" alt="Mate con medialunas" class="img-special">
+
+          <p>Enjoy a traditional Argentinian breakfast wherever you are with this special box inspired by our roots.
+          </p>
+
+          <!-- BUTTON -->
+          <div>
+            <a class="special-button" href="#argento">Shop now</a>
+          </div>
+
+          <!-- END BUTTON -->
         </article>
 
+        <!-- END MONTH SPECIAL -->
 
-        <div id="column-index">
+      </div>
 
-          <div class="search-engine">
-            <form id="form-search">
-              <input type="search" role="search" id="search" placeholder="Search">
-              <button class="search-button">Search</button>
-            </form>
-          </div>
+      <!-- END OF COLUMN RIGHT -->
 
-          <article id="index-special">
-            <span>This month's Special:</span>
-            <h3>El Argento</h3>
+      <!-- SECTION WHY CHOOSE US -->
+      <div class="why-choose">
+        <h2 class="subtitulo-1">Why choose us:</h2>
 
-            <img src="https://i.postimg.cc/d1kPHXFX/el-argento1.jpg" alt="Mate con medialunas" class="img-special">
-
-            <p>Enjoy a traditional Argentinian breakfast wherever you are with this special box inspired by our roots.
-            </p>
-
-            <div class="special-button">
-              <a href="#">Shop now</a>
+        <div id="reason-container">
+          <ul class="reason">
+            <div class="reason-hover">
+              <i class="fas fa-truck"></i>
+              <li class="reason-title">#StayHome</li>
             </div>
-          </article>
+            <li class="p-reason">Choose one of our breakfast boxes and we deliver it to all Switzerland for you.</li>
+          </ul>
+          <ul class="reason">
+            <div class="reason-hover">
+              <i class="fas fa-lock"></i>
+              <li class="reason-title">Secure Payment</li>
+            </div>
+            <li class="p-reason">Our payment method is easy to use, direct and confidential. Your security is our
+              priority. </li>
+          </ul>
+          <ul class="reason">
+            <div class="reason-hover">
+              <i class="fas fa-check-circle"></i>
+              <li class="reason-title">High Quality Products</li>
+            </div>
+            <li class="p-reason">We use fresh products, providing our costumers with the highest quality.</li>
+          </ul>
         </div>
-
       </div>
 
-    </section>
+      <!-- END SECTION WHY CHOOSE US -->
 
+    </div>
 
+    <!-- END GRID -->
 
-    <article id="why-chose">
-      <h2 class="subtitulo-1">Why choose us:</h2>
-
-      <div id="reason-container">
-        <ul class="reason">
-          <div class="reason-hover">
-            <i class="fas fa-truck"></i>
-            <li class="reason-title">#StayHome</li>
-          </div>
-          <li class="p-reason">Choose one of our breakfast boxes and we deliver it to all Switzerland for you.</li>
-        </ul>
-        <ul class="reason">
-          <div class="reason-hover">
-            <i class="fas fa-lock"></i>
-            <li class="reason-title">Secure Payment</li>
-          </div>
-          <li class="p-reason">Our payment method is easy to use, direct and confidential. Your security is our
-            priority. </li>
-        </ul>
-        <ul class="reason">
-          <div class="reason-hover">
-            <i class="fas fa-check-circle"></i>
-            <li class="reason-title">High Quality Products</li>
-          </div>
-          <li class="p-reason">We use fresh products, providing our costumers with the highest quality.</li>
-        </ul>
-
-      </div>
-    </article>
+    <!-- img  of delivery -->
 
     <div class="banner-indexdown">
       <img src="https://i.postimg.cc/B6D71G4q/4225416.jpg" alt="delivery" />
     </div>
+
+    <!-- end img  of delivery -->
 
   </main>
 
@@ -152,11 +162,26 @@
         <li><a href="paginas/Contact.html">CONTACT</a></li>
         <li><a href="#">SITE MAP</a></li>
       </ul>
-    </div>
 
-    <!-- ICON TWITTER-->
-    <!-- ICON INSTAGRAM-->
-    <!-- ICON FACEBOOK-->
+
+      <!-- <div id="social-media">
+        <ul>
+          <li class="media-icon">
+            <a href="#">
+            </a>
+          </li>
+          <li class="media-icon">
+            <a href="#">
+            </a>
+          </li>
+          <li class="media-icon">
+            <a href="#">
+            </a>
+          </li>
+        </ul>
+      </div> -->
+
+    </div>
   </footer>
 
 </body>

@@ -15,30 +15,39 @@
 
 <body>
     <header>
-        <a href="../index.html">
-            <div class="logo">
-                <img src="https://i.postimg.cc/Pq0FxqG3/LOGO2-min.png" alt="Logo-vertical"> <!-- Logo -->
-            </div>
-        </a>
 
-        <nav>
-            <ul>
-                <li><a href="../index.html"> Home </a></li>
-                <li><a href="About.html"> About </a></li>
-                <li><a href="Our-products.html"> Our Products </a></li>
-                <li><a href="Contact.html"> Contact </a></li>
-                <li><a href="Cart.html"> Cart </a></li>
-            </ul>
-        </nav>
+        <div class="head">
+            <!-- LOGO -->
+
+            <a href="../index.html">
+                <div class="logo">
+                    <img src="https://i.postimg.cc/Pq0FxqG3/LOGO2-min.png" alt="Logo-vertical"> <!-- Logo -->
+                </div>
+            </a>
+
+            <nav>
+                <ul>
+                    <li><a href="../index.html"> Home </a></li>
+                    <li><a href="About.html"> About </a></li>
+                    <li><a href="Our-products.html"> Our Products </a></li>
+                    <li><a href="Contact.html"> Contact </a></li>
+                    <li><a href="Cart.html"> Cart </a></li>
+                </ul>
+            </nav>
+
+        </div>
     </header>
 
     <main class="main">
         <div id="contact-container">
+
+            <!-- columna con datos de contacto -->
+
             <div class="contact-column1">
                 <div class="border-contact">
                     <h1 id="contact-title">CONTACT US</h1>
                     <div class="contact-data">
-                        <ul>
+                        <ul class="list-icon">
                             <li>
                                 <i class="fas fa-coffee" class="iconos"></i>
                             </li>
@@ -62,6 +71,7 @@
                 </div>
             </div>
 
+            <!-- formulario -->
 
             <form id="contact-form" action="get">
                 <div class="text">
@@ -122,6 +132,7 @@
                     </div>
                 </div>
 
+
                 <textarea name="mensaje" id="mensaje" cols="70" rows="5"
                     placeholder="Place your message here"></textarea>
 
@@ -138,6 +149,9 @@
                     <input type="reset" class="button-form" value="RESET">
                 </div>
             </form>
+
+            <!-- imagen izquierda -->
+
             <div id="img-contacto">
                 <img src="https://i.postimg.cc/05YHkxVn/img-contact.jpg" alt="Breakfast">
             </div>
