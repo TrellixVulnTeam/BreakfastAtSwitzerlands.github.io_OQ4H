@@ -17,6 +17,7 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -37,11 +38,6 @@ ul {
 }
 
 
-.main {
-    min-height: 1000px;
-}
-
-
 /* HEADER */
 
 .head {
@@ -54,13 +50,9 @@ ul {
 
 /* Logo */
 
-.logo {
-    width: 100px;
-
-}
-
 .logo img {
-    max-width: 205px;
+    max-width: 200px;
+    width: 200px;
 }
 
 nav {
@@ -88,7 +80,7 @@ nav ul li a:hover {
 footer {
     max-width: 100%;
     background-color: #d62828;
-    margin-top: 5vh;
+    margin-top: 5rem;
 }
 
 
@@ -98,7 +90,7 @@ footer {
 }
 
 #foot li {
-    padding: 2vh 3vh;
+    padding: 1.5rem 3rem;
 }
 
 
@@ -121,7 +113,6 @@ h1 {
 .subtitulo-1 {
     font-size: 4rem;
     letter-spacing: 0.1rem;
-    margin: 2vh auto;
     color: #FCBF49;
 }
 
@@ -149,11 +140,11 @@ p {
 }
 
 .titulo, .boton-index  {
-    margin-left: 5vh;
+    margin-left: 5rem;
 }
 
 .boton-index {
-    margin-top: 2vh;
+    margin-top: 2rem;
     background-color: #003049;
     font-size: 2rem;
     padding: 20px;
@@ -180,16 +171,18 @@ p {
         grid-template-areas:
       "Video-index dingdong columna-index"
       "why-chose why-chose columna-index";
-    margin: 3vh;
+    margin: 3rem;
   }
 
     /* VIDEO Y TEXTO IN INDEX */
   
-    .Video-index { 
+    .Video-index iframe { 
         -ms-grid-row: 1; 
         -ms-grid-column: 1; 
         grid-area: Video-index;
-  }
+        width: 560px;
+        height: 315px;
+    }
   
   .dingdong {
         -ms-grid-row: 1;
@@ -204,9 +197,9 @@ p {
     -ms-grid-row-span: 3;
     -ms-grid-column: 5;
     grid-area: columna-index;
-    background-color: #FCBF49;
+    background: linear-gradient(180deg, rgba(246,127,0,1) 17%, rgba(252,191,74,1) 54%, rgba(233,226,182,1) 100%);
     color: white;
-    padding: 3vh;
+    padding: 3rem;
 }
 
 /* search engine */
@@ -239,33 +232,38 @@ p {
 
 #index-special span {
     font-size: 2rem;
-    padding-top: 2.5vh;
+    padding-top: 2.5rem;
     display: flex;
+    justify-content: center;
+
 }
 
 #index-special h3 {
     font-size: 4.5rem;
     text-align: center;
-    padding: 1vh;
+    padding: 1rem;
     border-bottom: 1px solid white;
     border-top: 1px solid white;
-    margin-top: 1.5vh;
+    margin-top: 1.5rem;
 }
 
 .img-special {
     width: 90%;
-    margin: 4vh auto;
+    margin: 4rem auto;
     display: flex;
     outline: 3px solid white;
 }
 
 #index-special p {
-    line-height: 4vh;
+    line-height: 2.4rem;
+    font-size: 1.8em;
+    letter-spacing: 1.5px;
+    margin: 0 1rem;
 }
 
 .special-button {
     background-color: white;
-    margin: 3vh auto;
+    margin: 3rem auto;
     text-transform: uppercase;
     font-size: 1.8rem;
     text-align: center;
@@ -310,12 +308,12 @@ p {
 }
 
 .reason-title {
-    margin-bottom: 2vh;
+    margin-bottom: 2rem;
 
 }
 
 .reason i {
-    margin: 3vh auto;
+    margin: 3rem auto;
 }
 
 .p-reason {
@@ -341,14 +339,13 @@ p {
 
 #about-main {
     display: flex;
-    margin: 10vh 2vh;
+    margin: 10rem 2rem;
 }
 
 
 .about-column1 {
-    width: 70vh;
+    width: 50rem;
     background-color: #FCBF49;
-    height: 535px;
 }
 
 .about-column1 h1 {
@@ -356,14 +353,14 @@ p {
     color: white;
     display: flex;
     justify-content: center;
-    margin-top: 5vh;
+    margin-top: 5rem;
 }
 
 .about-column2 {
     width: 50%;
     display: flex;
     flex-direction: column;
-    margin: auto 5vh;
+    margin: auto 4rem;
 }
 
 .about-image {
@@ -375,6 +372,7 @@ p {
 
 .about-text {
     width: auto;
+    margin-right: 2rem;
 }
 
 
@@ -693,36 +691,32 @@ input[type=checkbox] {
 .button-form {
     border: none;
     width: 100%;
-    max-width: 200px;
+    max-width: 20rem;
     cursor: pointer;
     border-radius: 10px;
     background-color: #EAE2B7;
     letter-spacing: 1.5px;
-    padding: 15px;
+    padding: 1.5rem;
     color: white;
 }
 
 .s-r-buttons {
-    text-align: center;
     position: relative;
-    top: 50px;
+    top: 5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
 }
 
-input[type=submit] {
-    margin-right: 5px;
-    font-weight: 700;
-}
-
-input[type=reset] {
-    margin-left: 5px;
+input[type=submit], input[type=reset] {
     font-weight: 700;
 }
 
 
 #img-contacto img {
-    height: 650px;
-    width: 410px;
-    margin-top: 35px;
+    height: 65rem;
+    width: 41rem;
+    margin-top: 3.5rem;  
 }
 
 
@@ -732,15 +726,29 @@ input[type=reset] {
 
 /* SECTION OUR PRODUCTS */
 
+.products-main {
+    margin-bottom: 8rem;
+}
+
 #title-products {
     background-image: url('https://i.postimg.cc/kXyZc98G/banner-products.jpg');
-    margin-bottom: 9vh;
+    margin-bottom: 9rem;
 }
 
 #title-products h1 {
-    margin-left: 5vh;
+    margin-left: 4rem;
 }
 
+
+.disclaimer {
+    width: 35%;
+    margin-left: 4.5rem;
+    margin-top: 4rem;
+    font-weight: 600;
+    text-align: left;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
 
 /* PRODUCTS GRID */
 
@@ -765,7 +773,7 @@ input[type=reset] {
       "Product-1 Product-2 Product-3"
       "Product-4 Product-5 Product-6"
       "Product-7 Product-8 Product-9";
-      margin: 2vh;
+      margin: 2rem;
   }
   
   .Product-1 { 
@@ -825,26 +833,32 @@ input[type=reset] {
 
    /* GRID ELEMENT STYLING */
 
-   .container-products>* {
+.container-products>* {
     margin: 15px;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
     border: 1px solid #003049;
+    transition: all .2s ease-in-out; 
 }
 
+/* SCALE */
+.container-products>*:hover {
+    transform: scale(1.1,1.1);
+}
 
+/* END SCALE */
+
+/* CARDS STYLING */
 .products, .products-title, .month-special {
     text-align: center;
 }
 
 .products-title {
     color: white;
-    font-size: 1.8rem;
+    font-size: 1.7em;
     background-color: #003049;
-    padding: 8px 5px;
+    padding: 1rem 2rem;
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.1em;
 }
 
 .products {
@@ -871,6 +885,7 @@ input[type=reset] {
     width: 100%;
     font-weight: 700;
     margin: 0 auto;
+    display: inline-block;
 }
 
 .Product-3 .products-title {
@@ -887,40 +902,38 @@ input[type=reset] {
  
 .img-product img {
     width: 80%;
-    margin: 4vh auto;
+    margin: 3rem auto;
     display: flex;
-    margin-bottom: 1vh;
+    margin-bottom: 1rem;
 }
 
-.product-description{
-    height: 20vh;
-}
-
-.product-description a {
-    width: 70%;
-    margin: 2vh auto;
-    font-size: 2rem;
+.align-button {
+    display: flex;
     justify-content: center;
+}
+
+.align-button a {
+    color: white;
+}
+
+
+.a-products {
+    font-size: 2rem;
     background-color: #003049;
     color: white;
     padding: 10px;
+    width: 150px;
     border-radius: 50px;
+    cursor: pointer;
+    border-style: none;
 }
 
-.a-products {
-    display: flex;
-    align-content: end;
-}
 
-.disclaimer {
-    width: 35%;
-    margin-left: 6vh;
-    margin-top: 5vh;
-    font-weight: 600;
-    text-align: left;
-    font-size: 2rem;
-    letter-spacing: 1px;
-}
+
+
+
+
+
 
 
 /* CART PAGE */
@@ -931,7 +944,7 @@ input[type=reset] {
 }
 
 #title-cart h1 {
-    margin-left: 5vh;
+    margin-left: 5rem;
 }
 
 .container-cart {
@@ -947,7 +960,7 @@ input[type=reset] {
     border: 2.5px solid #003049;
     border-radius: 15px;
     width: 600px;
-    margin: 5vh;
+    margin: 5rem;
     text-align: center;
 }
 
@@ -955,11 +968,11 @@ input[type=reset] {
     font-size: 2.5rem;
     display: flex;    
     align-items: center;
-    margin-top: 3vh;
+    margin-top: 3rem;
     justify-content: center;
     color: #003049;
     background-color: #EAE2B7;
-    padding: 1vh;
+    padding: 1rem;
 
 }
 
@@ -973,7 +986,7 @@ input[type=reset] {
 }
 
 .cart-section1 p {
-    margin: 5vh;
+    margin: 2rem;
     height: auto;
     align-items: center;
 }
@@ -981,7 +994,7 @@ input[type=reset] {
 #cart-button {
     background-color: #003049;
     color: white;
-    margin: 1vh auto;
+    margin: 0 auto;
 }
 
 #cart-button:hover {
@@ -992,8 +1005,8 @@ input[type=reset] {
 
 .cart-section2 {
     background-color: #FCBF49;
-    padding: 3vh;
-    margin-right: 3vh;
+    padding: 3rem;
+    margin-right: 3rem;
     width: 600px;
     height: 400px;
 
@@ -1001,12 +1014,12 @@ input[type=reset] {
 
 .container-suggestion {
     display: flex;
-    margin-top: 4vh;
+    margin-top: 2rem;
 }
 
 .container-suggestion h3 {
     font-size: 2.5rem;
-    padding: 1vh;
+    padding: 0.5rem;
     text-align: center;
 }
 
@@ -1016,11 +1029,11 @@ input[type=reset] {
 
 .container2-suggestion p{
     text-align: justify;
-    margin: 1vh;
+    margin: 1rem;
 }
 
 .cart-section2 img {
-    width: 30vh;
+    width: 30rem;
     height: 30vh;
     border: 3px solid white;
 }

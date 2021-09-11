@@ -1,0 +1,153 @@
+
+@media screen and (max-width:1355px) and (min-width:880px) {
+    /* GENERALES */
+
+    .titles h1 {
+        font-size: 5rem;
+    }
+
+    .titles {
+        background-size: cover;
+    }
+
+    .logo, .titles h1, .boton-index {
+        margin-left: 2rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+        line-height: 30px;
+    }
+
+    /* INDEX */
+
+    .subtitulo-1 {
+        font-size: 2.7rem;
+        border-bottom: 3px #FCBF49 solid;
+        padding-bottom: 10px;
+    }
+    
+    .boton-index {
+        font-size: 1.8rem;
+        padding: 10px;
+        max-width: 18rem;
+        text-align: center;
+    }
+
+    /* GRID */
+
+.grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 0px 1fr;
+    grid-template-columns: 2fr 1fr;
+    -ms-grid-rows: 1fr 0px 1fr 0px 1fr 0px 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "dingdong columna-index"
+      "video columna-index"
+      "why-choose why-choose"
+      "banner-indexdown banner-indexdown";
+      margin-top: 7vh;
+  }
+
+  .grid {
+    margin: 2vh;
+  }
+  
+  .dingdong { 
+      -ms-grid-row: 1; 
+      -ms-grid-column: 1; 
+      grid-area: dingdong; 
+      height: auto;
+    }
+
+    .about-text {
+        padding: 2rem;
+    }
+  
+    /* COLUMN SUGGESTION */
+
+  .columna-index { 
+      -ms-grid-row: 1; 
+      -ms-grid-row-span: 3; 
+      -ms-grid-column: 3; 
+      grid-area: columna-index; 
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-content: space-between;
+    }
+
+    #index-special h3 {
+        font-size: 3rem;
+    }
+
+    #index-special p {
+        max-width: 40rem;
+        text-align: center;
+        line-height: normal;
+    }
+
+    .img-special {
+        width: 70%;
+    }
+  
+    /* WHY CHOOSE US SECTION */
+
+  .why-choose {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: why-choose;
+    margin-top: 3rem;
+  }
+
+  .reason i, .reason-title {
+      font-size: 2.3rem;
+  }
+  
+  .p-reason {
+      font-size: 1.5rem;
+  }
+
+  .reason {
+      margin-top: 3rem;
+  }
+
+
+  /* VIDEO INDEX */
+  
+  .Video-index iframe { 
+    -ms-grid-row: 5; 
+    -ms-grid-column: 1; 
+    -ms-grid-column-span: 3; 
+    grid-area: video;
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    margin-top: -2rem;
+}
+
+  /* IMG BOTTOM */
+
+  .banner-indexdown { 
+      -ms-grid-row: 7;
+      -ms-grid-column: 1;
+      -ms-grid-column-span: 3; 
+      grid-area: banner-indexdown; 
+      width: 100%;
+    }
+  
+
+    /* ABOUT SECTION */
+
+
+
+
+
+
+
+}
+

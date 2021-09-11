@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css\responsive.css">
     <script src="https://kit.fontawesome.com/d085048c72.js" crossorigin="anonymous"></script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;500&display=swap" rel="stylesheet">
@@ -19,7 +19,8 @@
     <header>
 
         <div class="head">
-            <!-- LOGO -->
+
+            <!-- Navigation bar + logo -->
 
             <a href="../index.html">
                 <div class="logo">
@@ -36,18 +37,21 @@
                     <li><a href="Cart.html"> Cart </a></li>
                 </ul>
             </nav>
-
         </div>
+
+        <!-- End Navigation bar + logo -->
+
     </header>
 
-    <main class="main">
+    <main class="products-main">
 
         <!-- BANNER AND TITLE -->
 
         <div class="titles" id="title-products">
             <h1>Our Products </h1>
-            <div class="product-description">
-                <p class="disclaimer"> All our combos include 2 infusions of your choice, freshly squeezed orange juice, and lots of love.
+            <div>
+                <p class="disclaimer"> All our combos include 2 infusions of your choice, freshly squeezed orange juice,
+                    and lots of love.
                 </p>
             </div>
         </div>
@@ -56,112 +60,114 @@
         <!-- PRODUCTS GRID -->
 
         <div class="container-products">
-            <div class="Product-1">
+            <div class="Product-1" class="product-height">
                 <h2 class="products-title">Good day sunshine</h2>
                 <div class="img-product">
                     <img src="https://i.postimg.cc/QtkK1Nc6/sunshine.jpg" alt="Breakfast">
                 </div>
-                <div class="product-description">
-                    <p class="products">Our most traditional combo. Toasts, croissants, butter and jam.
-                    </p>
-                    <a href="#" class="a-products">Add to cart</a>
+                <p class="products">Our most traditional combo. Toasts, croissants, butter and jam.
+                </p>
+                <div class="align-button">
+                    <button class="a-products"><a href="cart.html"> Add to cart </a></button>
                 </div>
             </div>
 
-            <div class="Product-2">
+            <div class="Product-2" class="product-height">
                 <h2 class="products-title">Willy Wonka</h2>
                 <div class="img-product">
                     <img src="https://i.postimg.cc/HjDx0ysM/willy-wonka.jpg" alt="Chocolate and coffee">
                 </div>
-                <div class="product-description">
-                    <p class="products">¿Sweet tooth? Then this chocolate-full combo is your perfect match. ¡Swipe right!
-                    </p>
-                    <a href="#" class="a-products">Add to cart</a>
+                <p class="products">¿Sweet tooth? Then this chocolate-full combo is your perfect match. ¡Swipe
+                    right!
+                </p>
+                <div class="align-button">
+                    <button class="a-products"><a href="cart.html"> Add to cart </a></button>
                 </div>
             </div>
 
-            <div class="Product-3" id="argento">
+            <div class="Product-3" id="argento" class="product-height">
                 <span class="month-special">This month's special</span>
                 <h2 class="products-title">El Argento</h2>
                 <div class="img-product">
                     <img src="https://i.postimg.cc/3NDNDB77/el-argento.jpg" alt="Medialunas and coffee">
                 </div>
-                <div class="product-description">
-                    <p class="products">Traditional argentinian breakfast. Enjoy our homemade medialunas and the best "bizcochitos".
-                    </p>
-                    <a href="#" class="a-products">Add to cart</a>
+                <p class="products">Traditional argentinian breakfast. Enjoy our homemade medialunas and the best
+                    "bizcochitos".
+                </p>
+                <div class="align-button">
+                    <button class="a-products"><a href="cart.html"> Add to cart </a></button>
                 </div>
             </div>
 
-            <div class="Product-4">
-                <h2 class="products-title">Guilt-free</h2>
-                <div class="img-product">
-                    <img src="https://i.postimg.cc/2SMWfKzx/guilt-free.jpg" alt="fit breakfast">
-                </div>
-                <div class="product-description">
-                    <p class="products">Fruits, oatmeal, yoghurt. All fitness approved.
-                    </p>
-                    <a href="#" class="a-products">Add to cart</a>
-                </div>
-            </div>
-
-            <div class="Product-5">
-                <h2 class="products-title">Swiss dreams are made of this</h2>
-                <div class="img-product">
-                    <img src="https://i.postimg.cc/SNnb6wkq/cheese.jpg" alt="Cheese plate">
-                </div>
-                <div class="product-description">
-                    <p class="products">Cheese. Swiss cheese. ¿What else can we say?
-                    </p>
-                    <a href="#" class="a-products">Add to cart</a>
-                </div>
-            </div>
-
-            <div class="Product-6">
+            <div class="Product-4" id="bedfast" class="product-height">
                 <h2 class="products-title">Bedfast</h2>
                 <div class="img-product">
                     <img src="https://i.postimg.cc/JzGXvLWn/bedfast.jpg" alt="Breakfast in bed">
                 </div>
-                <div class="product-description">
-                    <p class="products">Enjoy this combo without leaving the comfort of your bed. No plates needed.
-                    </p>
-                    <a href="#" class="a-products">Add to cart</a>
+                <p class="products">Enjoy this combo without leaving the comfort of your bed. No plates needed.
+                </p>
+                <div class="align-button">
+                    <button class="a-products"><a href="cart.html"> Add to cart </a></button>
                 </div>
             </div>
 
-            <div class="Product-7">
+            <div class="Product-5" class="product-height">
+                <h2 class="products-title">Swiss dreams are made of this</h2>
+                <div class="img-product">
+                    <img src="https://i.postimg.cc/SNnb6wkq/cheese.jpg" alt="Cheese plate">
+                </div>
+                <p class="products">Cheese. Swiss cheese. ¿What else can we say?
+                </p>
+                <div class="align-button">
+                    <button class="a-products"><a href="cart.html"> Add to cart </a></button>
+                </div>
+            </div>
+
+            <div class="Product-6" class="product-height">
+                <h2 class="products-title">Guilt-free</h2>
+                <div class="img-product">
+                    <img src="https://i.postimg.cc/2SMWfKzx/guilt-free.jpg" alt="fit breakfast">
+                </div>
+                <p class="products">Fruits, oatmeal, yoghurt. All fitness approved.
+                </p>
+                <div class="align-button">
+                    <button class="a-products"><a href="cart.html"> Add to cart </a></button>
+                </div>
+            </div>
+
+            <div class="Product-7" class="product-height">
                 <h2 class="products-title">Marie Antoinette</h2>
                 <div class="img-product">
                     <img src="https://i.postimg.cc/nh5gyBCD/marie-antoinette.jpg" alt="Breakfast and cakes">
                 </div>
-                <div class="product-description">
-                    <p class="products">You choose the cakes you want, we make them for you ¡Let us eat cake!
-                    </p>
-                    <a href="#" class="a-products">Add to cart</a>
+                <p class="products">You choose the cakes you want, we make them for you ¡Let us eat cake!
+                </p>
+                <div class="align-button">
+                    <button class="a-products"><a href="cart.html"> Add to cart </a></button>
                 </div>
             </div>
 
-            <div class="Product-8">
+            <div class="Product-8" class="product-height">
                 <h2 class="products-title">Le macaron</h2>
                 <div class="img-product">
                     <img src="https://i.postimg.cc/ZYVq98jN/macaron.jpg'" alt="Macarons and coffee">
                 </div>
-                <div class="product-description">
-                    <p class="products"> Dig into our tasty macarons. Different flavors, same amazigness. Mon Dieux!
-                    </p>
-                    <a href="#" class="a-products">Add to cart</a>
+                <p class="products"> Dig into our tasty macarons. Different flavors, same amazigness. Mon Dieux!
+                </p>
+                <div class="align-button">
+                    <button class="a-products"><a href="cart.html"> Add to cart </a></button>
                 </div>
             </div>
 
-            <div class="Product-9">
+            <div class="Product-9" class="product-height">
                 <h2 class="products-title">Everyday I'm waffling</h2>
                 <div class="img-product">
                     <img src="https://i.postimg.cc/X7GTQrDD/waffle.jpg" alt="Waffles">
                 </div>
-                <div class="product-description">
-                    <p class="products"> Select the toppings you want for this amazing, warm and fluffy waffle combo.
-                    </p>
-                    <a href="#" class="a-products">Add to cart</a>
+                <p class="products"> Select the toppings you want for this amazing, warm and fluffy waffle combo.
+                </p>
+                <div class="align-button">
+                    <button class="a-products"><a href="cart.html"> Add to cart </a></button>
                 </div>
             </div>
         </div>
