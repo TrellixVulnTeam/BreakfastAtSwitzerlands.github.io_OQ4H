@@ -1060,7 +1060,7 @@ input[type=submit], input[type=reset] {
 #sitemap-column {
     background-color: #d62828;
     width: 40%;
-    margin: 0 auto;
+    margin-right: 2rem;
 }
 
 #sitemap-url {
