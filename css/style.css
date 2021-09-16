@@ -104,7 +104,7 @@ footer {
 /* Títulos */
 
 h1 {
-    font-size: 7rem;
+    font-size: 7em;
     font-family: 'ModernRegular';
     letter-spacing: 1px;
     color: #003049;
@@ -1049,5 +1049,43 @@ input[type=submit], input[type=reset] {
 }
 
 
+/* SITEMAP */
 
+#sitemap-main {
+    display: flex;
+    height: 60rem;
+}
 
+#sitemap-column {
+    background-color: #d62828;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#sitemap-url {
+    width: 90%;
+    margin: 5rem;
+}
+.sitemap-a {
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.sitemap-a:hover {
+    color: white;
+}
+
+url a {
+    line-height: 5rem;
+    width: 100%;
+    display: inline-block;
+}
+
+url:hover {
+    background-color: #EAE2B7;
+}
+
+#sitemap-img img {
+    width: 50%;
+    margin-top: 30%;
+}
