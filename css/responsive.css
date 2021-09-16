@@ -204,9 +204,6 @@
           margin-right: 5%;
         }
 
-       
-
-
 
     /* End About images-grid */
 
@@ -217,5 +214,31 @@
           grid-area: img-swissmade; 
         }
 
+        /* END ABOUT US SECTION */
+
+        /* OUR PRODUCTS */
+
+        .products-title {
+            font-size: 1.5rem;
+            letter-spacing: 0.5px;
+            width: 100%;
+            padding: 1rem 0.5rem;
+        }
+
+        .products {
+            font-size: 1.5rem;
+            line-height: 20px;
+            margin: 10px auto
+        }
+
+
+        .Product-5 .products-title {
+            font-size: 1.2rem;
+            letter-spacing: 0;
+        }
+
+         /* END OUR PRODUCTS */
 
 }
+
+
