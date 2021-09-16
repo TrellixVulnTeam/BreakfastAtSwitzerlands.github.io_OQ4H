@@ -381,8 +381,8 @@ p {
 
 .grid-img {
     display: grid;
-    grid-template-columns:repeat(4, 130px);
-    grid-template-rows: repeat(4, 130px);
+    grid-template-columns:repeat(4, 15em);
+    grid-template-rows: repeat(4, 15em);
     gap: 5px;
   }
 
