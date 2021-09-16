@@ -216,7 +216,9 @@
 
         /* END ABOUT US SECTION */
 
-        /* OUR PRODUCTS */
+
+
+        /* OUR PRODUCTS SECTION */
 
         .products-title {
             font-size: 1.5rem;
@@ -237,8 +239,100 @@
             letter-spacing: 0;
         }
 
-         /* END OUR PRODUCTS */
+         /* END OUR PRODUCTS SECTION */
 
+
+
+
+         /* CONTACT SECTION */
+
+         #contact-container {
+            display: -ms-grid;
+            display: grid; 
+            -ms-grid-columns: 1fr 0px 1fr; 
+            grid-template-columns: 1fr 1fr; 
+            -ms-grid-rows: 0.5fr 0px 1fr; 
+            grid-template-rows: 0.5fr 1fr; 
+            gap: 0px 0px; 
+            grid-template-areas: 
+              "contact-column1 contact-column1"
+              "contact-form contenedor-imgabout"; 
+            margin: 0;
+            height: 800px;
+          }
+          
+          /* Contact Us Title */
+          .contact-column1 { 
+            -ms-grid-row: 1; 
+            -ms-grid-column: 1; 
+            -ms-grid-column-span: 3; 
+            grid-area: contact-column1; 
+            width: 100%;
+            height: 150px;
+            display: flex;
+            margin: 0;
+            }
+
+            .border-contact {
+            width: 100%;
+            padding: 50px;
+            height: 120px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: auto;
+            }
+          
+            .data {
+                display: flex;
+                flex-direction: column;
+            }
+
+           #contact-title {
+               font-size: 5rem;
+               margin: 0;
+           }
+
+         /* End Contact Us Title */
+
+         /* Form */
+
+          #contact-form { 
+            -ms-grid-row: 3; 
+            -ms-grid-column: 1; 
+            grid-area: contact-form;
+            height: auto;
+        }
+
+        /* End form */
+
+
+        /* Logo */
+
+        .contenedor-imgabout {
+            -ms-grid-row: 3; 
+            -ms-grid-column: 3; 
+            grid-area: contenedor-imgabout;
+            position: initial;
+            width: auto;
+            height: auto;
+            display: flex;
+            margin: auto;
+        }
+
+        #about-logoimg {
+            height: auto;
+            padding: 0;
+            width: 70%;
+        }
+
+        /* End Logo */
+
+        #img-contacto {
+            display: none;
+        }
+
+         /* END CONTACT SECTION */
 }
 
 

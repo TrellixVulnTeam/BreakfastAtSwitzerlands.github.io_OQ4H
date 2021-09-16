@@ -368,7 +368,6 @@ p {
     display:block;
     margin:auto;
     padding-top: 20px;
-    width: 30%;
 }
 
 .about-text {
@@ -455,11 +454,17 @@ p {
     margin-left: 1rem;
 }
 
+.contenedor-imgabout {
+    position: relative;
+    top: 350px;
+    left: -340px;
+    height: 100px;
+    width: 20px;
+}
+
 #about-logoimg {
-    margin-top: 50px;
     height: 250px;
     width: auto;
-
 }
 
 #img-swissmade img {
