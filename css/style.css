@@ -44,6 +44,10 @@ ol, ul {
 
 /* HEADER */
 
+.burger {
+    display: none;
+}
+
 .head {
     height: 10rem;
     display: flex;
@@ -172,7 +176,6 @@ p {
     -ms-grid-columns: 2fr 1px 2fr 1px 1fr;
     grid-template-columns: 2fr 2fr 1fr;
     -ms-grid-rows: 0.5fr 1px 0.5fr;
-    grid-template-rows: 0.5fr 0.5fr;
     gap: 1px 1px;
     grid-auto-flow: row;
         grid-template-areas:
