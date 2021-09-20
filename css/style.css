@@ -1016,6 +1016,14 @@ input[type=submit], input[type=reset] {
     width: 600px;
     margin: 5rem;
     text-align: center;
+    max-height: 400px;
+}
+
+.content-cart {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
 }
 
 .icon-title {
@@ -1040,8 +1048,7 @@ input[type=submit], input[type=reset] {
 }
 
 .cart-section1 p {
-    margin: 2rem;
-    height: auto;
+    margin: 0 2rem;
     align-items: center;
 }
 
@@ -1059,36 +1066,32 @@ input[type=submit], input[type=reset] {
 
 .cart-section2 {
     background-color: #FCBF49;
-    padding: 3rem;
+    padding: 2rem;
     margin-right: 3rem;
-    width: 600px;
-    height: 400px;
-
-}
-
-.container-suggestion {
+    height: 600px;
+    width: 450px;
     display: flex;
-    margin-top: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.container-suggestion h3 {
+
+.item-title {
     font-size: 2.5rem;
     padding: 0.5rem;
     text-align: center;
+    color: #003049;
+    background-color: white;
+    margin: 1rem 0;
 }
 
-.container2-suggestion {
-    flex-direction: column;
-}
 
-.container2-suggestion p{
-    text-align: justify;
+.carousel-item p{
+    text-align: center;
     margin: 1rem;
 }
 
 .cart-section2 img {
-    width: 30rem;
-    height: 30vh;
     border: 3px solid white;
 }
 
@@ -1097,10 +1100,23 @@ input[type=submit], input[type=reset] {
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    font-size: 3rem;
-    border-bottom: 2px white solid;
-    padding-bottom: 20px;
+    font-size: 2.5rem;
+    padding: 20px;
+    font-weight: bold;
+    border-top: 5px solid white;
 }
+
+.carousel-item img {
+    height: 250px;
+    width: 100%;
+}
+
+.suggestion-button {
+
+}
+
+
+
 
 
 /* SITEMAP */
