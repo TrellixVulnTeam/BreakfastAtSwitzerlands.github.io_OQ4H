@@ -20,6 +20,10 @@ html {
   scroll-behavior: smooth;
 }
 
+#burger-menu {
+    display: none;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -55,6 +59,8 @@ ol, ul {
     align-items: center;
     margin: 0 15px;
 }
+
+
 
 /* Logo */
 
