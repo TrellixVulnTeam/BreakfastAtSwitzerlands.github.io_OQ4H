@@ -376,7 +376,6 @@
           "why-choose"
           "columna-index"
           "banner-indexdown";
-        max-width: 80%;
     }
       
     /* h1 */
@@ -407,13 +406,14 @@
     .about-text {
         padding: 2rem;
         font-size: 1.7rem;
-        max-width: 80%;
+        
     }
 
     .dingdong { 
         -ms-grid-row: 3; 
         -ms-grid-column: 1; 
         grid-area: ding-dong; 
+        width: 600px;
     }
       
     .subtitulo-1 {
@@ -424,14 +424,14 @@
         -ms-grid-row: 5; 
         -ms-grid-column: 1; 
         grid-area: video; 
-        width: 70%;
+        width: 500px;
     }
       
     .why-choose { 
         -ms-grid-row: 7; 
         -ms-grid-column: 1; 
         grid-area: why-choose; 
-        width: 70%;
+        width: 500px;
     }
       
     /* EL ARGENTO SECTION */
@@ -440,7 +440,7 @@
           -ms-grid-row: 9; 
           -ms-grid-column: 1; 
           grid-area: columna-index; 
-          width: 70%;
+          width: 700px;
     }
 
     /* END EL ARGENTO SECTION */
