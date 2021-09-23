@@ -69,6 +69,7 @@ ol, ul {
     width: 200px;
 }
 
+/* NAVIGATION MENU */
 nav {
     flex-wrap: nowrap;
 }
@@ -87,6 +88,10 @@ nav ul li a:hover {
     background-color: #FCBF49;
     color: white;
     padding: 15px;
+}
+
+.burger-menu {
+    display: none;
 }
 
 /* Footer */

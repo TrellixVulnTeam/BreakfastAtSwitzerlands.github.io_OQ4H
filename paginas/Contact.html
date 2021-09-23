@@ -28,7 +28,7 @@
                 </div>
             </a>
 
-            <nav>
+            <nav class="nav-horizontal">
                 <ul>
                     <li><a href="../index.html"> Home </a></li>
                     <li><a href="About.html"> About </a></li>
@@ -37,10 +37,35 @@
                     <li><a href="Cart.html"> Cart </a></li>
                 </ul>
             </nav>
-        </div>
+        
 
         <!-- End Navigation bar + logo -->
 
+           <!-- BURGER MENU -->
+
+      <div class="burger-menu">
+        <button type="button" id="nav-btn" data-bs-toggle="dropdown">
+          <input id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value="" />
+          <label for="abrir-cerrar" class="toggle-button">
+            <span class="cerrar" title="Cerrar">Cerrar</span>
+            <span class="abrir" title="Abrir">Abrir</span>
+          </label>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Our-products.html">Our products</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Cart.html">Cart</a></li>
+        </ul>
+      </div>
+
+      <!-- END BURGER MENU -->
+
+    </div>
+
+     <!-- End Navigation bar + logo -->
+     
     </header>
 
     <!-- Column left -->
