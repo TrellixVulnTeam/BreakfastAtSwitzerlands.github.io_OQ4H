@@ -425,36 +425,85 @@
 
     /* INDEX */
 
+    .hide {
+        display: none;
+    }
+
+    #responsive-index {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* TITLE */
+
+    .titles h1 {
+        font-size: 5rem;
+    }
+
+    .boton-index {
+        padding: 10px;
+    }
    
-  #main-index {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "dingdong"
-      "Video-index"
-      "why-choose"
-      "columna-index";
-  }
-  
-  
-  .dingdong { 
-    grid-area: dingdong; 
-  }
-  
-  .Video-index iframe { 
-    grid-area: Video-index;
-  }
-  
-  .why-choose { 
-    grid-area: why-choose; 
-  }
-  
-  .columna-index {  
-    grid-area: columna-index; 
-  }
+    .titulo, .boton-index  {
+        margin-left: 2rem;
+    }
+
+    /* END TITLE */
+
+    /* DINGDONG SECTION */
+
+    .dingdong {
+        display: flex;
+        flex-direction: column;
+        margin: 15px auto;
+    }
+
+    .subtitulo-1 {
+        font-size: 3.5rem;
+        margin: 15px auto;
+        font-weight: 700;
+        width: 80%;
+        text-align: center;
+    }
+
+    .dingdong p {   
+        width: 80%; 
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .Video-index iframe {
+        width: 80%;
+        margin: 15px auto;
+        display: flex;
+    }
+
+    /* END DINGDONG SECTION */
+
+    /* WHY CHOOSE SECTION */
+
+    #reason-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .reason {
+        justify-content: center;
+        display: flex;
+    }
+
+    .p-reason {
+        display: flex;
+        margin: auto 10px;
+    }
+
+    /* END WHY CHOOSE SECTION */
+
+
+
+
 
 /* ABOUT SECTION */
 
@@ -521,6 +570,9 @@
         height: auto;
         width: 15rem;
     }
+
+
+
 
 }
 

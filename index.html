@@ -56,10 +56,10 @@
         </button>
         <ul class="dropdown-menu">
           <li><a href="index.html">Home</a></li>
-            <li><a href="paginas/about.html">About</a></li>
-            <li><a href="paginas/Our-products.html">Our products</a></li>
-            <li><a href="paginas/Contact.html">Contact</a></li>
-            <li><a href="paginas/Cart.html">Cart</a></li>
+          <li><a href="paginas/about.html">About</a></li>
+          <li><a href="paginas/Our-products.html">Our products</a></li>
+          <li><a href="paginas/Contact.html">Contact</a></li>
+          <li><a href="paginas/Cart.html">Cart</a></li>
         </ul>
       </div>
 
@@ -75,24 +75,116 @@
 
   <!-- BODY -->
 
-  <main class="main" id="main-index">
+  <main class="main">
 
-    <section>
+    <div>
       <div class="titles">
         <h1 class="titulo">Send a Breakfast</h1>
         <a class="boton-index" href="paginas/Our-products.html">See our products</a>
       </div>
-    </section>
 
-    <!-- GRID -->
 
-    <div class="grid">
+      <!-- GRID -->
 
-      <div class="Video-index">
-        <iframe src="https://www.youtube.com/embed/C2gEv_9-p6I" title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
+      <div class="hide grid">
+
+        <div class="Video-index">
+          <iframe src="https://www.youtube.com/embed/C2gEv_9-p6I" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
+        <div class="dingdong">
+          <h3 class="subtitulo-1">Ding Dong... ¡Your breakfast is here!</h3>
+          <p class="about-text">If you are looking for an innovative yet heartful gift, ¡you have come to the right
+            place! Make someone's morning perfect, surprise your loved ones with one of our breakfast gift boxes
+            delivered directly to their door. We use fresh, high-quality products to ensure the best of experiences.
+            After all, nothing beats waking up to a hot coffee and a delicious breakfast (¡without even moving a
+            finger!) </p>
+        </div>
+
+        <!-- COLUMN RIGHT -->
+
+        <div class="columna-index">
+
+          <!-- SEARCH ENGINE  -->
+          <div class="mysearch-engine">
+            <form id="form-search">
+              <input type="search" role="search" id="mysearch" placeholder="Search">
+              <button class="mysearch-button">Search</button>
+            </form>
+          </div>
+
+          <!-- MONTH SPECIAL -->
+
+          <article id="index-special">
+            <span>This month's Special:</span>
+            <h3>El Argento</h3>
+
+            <img src="https://i.postimg.cc/d1kPHXFX/el-argento1.jpg" alt="Mate con medialunas" class="img-special">
+
+            <p>Enjoy a traditional Argentinian breakfast wherever you are with this special box inspired by our roots.
+            </p>
+
+            <div>
+              <a class="special-button" href="paginas/Our-products.html#argento">Shop now</a>
+            </div>
+
+          </article>
+
+        </div>
+
+        <!-- END MONTH SPECIAL -->
+
+
+        <!-- SECTION WHY CHOOSE US -->
+        <div class="why-choose">
+          <h2 class="subtitulo-1">Why choose us:</h2>
+
+          <div id="reason-container">
+            <ul class="reason">
+              <div class="reason-hover">
+                <i class="fas fa-truck"></i>
+                <li class="reason-title">#StayHome</li>
+              </div>
+              <li class="p-reason">Choose one of our breakfast boxes and we deliver it to all Switzerland for you.</li>
+            </ul>
+            <ul class="reason">
+              <div class="reason-hover">
+                <i class="fas fa-lock"></i>
+                <li class="reason-title">Secure Payment</li>
+              </div>
+              <li class="p-reason">Our payment method is easy to use, direct and confidential. Your security is our
+                priority. </li>
+            </ul>
+            <ul class="reason">
+              <div class="reason-hover">
+                <i class="fas fa-check-circle"></i>
+                <li class="reason-title">High Quality</li>
+              </div>
+              <li class="p-reason">We use fresh products, providing our costumers with the highest quality.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- END SECTION WHY CHOOSE US -->
+
       </div>
+
+      <!-- END GRID -->
+
+    </div>
+    <!-- img  of delivery -->
+
+    <div class="banner-indexdown hide">
+      <img src="https://i.postimg.cc/B6D71G4q/4225416.jpg" alt="delivery" />
+    </div>
+
+    <!-- end img  of delivery -->
+
+    <!-- RESPONSIVE COLUMN LAYOUT -->
+
+    <div id="responsive-index">
 
       <div class="dingdong">
         <h3 class="subtitulo-1">Ding Dong... ¡Your breakfast is here!</h3>
@@ -103,7 +195,77 @@
           finger!) </p>
       </div>
 
-      <!-- COLUMN RIGHT -->
+      <div class="Video-index">
+        <iframe src="https://www.youtube.com/embed/C2gEv_9-p6I" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+
+      <!-- SECTION WHY CHOOSE US -->
+
+      <div id="reason-container">
+
+        <div class="why-choose">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <h2 class="subtitulo-1">Why choose us:</h2>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-none d-md-block">
+                  <ul class="reason">
+                    <div class="reason-hover">
+                      <i class="fas fa-truck"></i>
+                      <li class="reason-title">#StayHome</li>
+                    </div>
+                    <li class="p-reason">Choose one of our breakfast boxes and we deliver it to all Switzerland for you.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+
+              <div class="carousel-item">
+                <div class="d-none d-md-block">
+                  <ul class="reason">
+                    <div class="reason-hover">
+                      <i class="fas fa-lock"></i>
+                      <li class="reason-title">Secure Payment</li>
+                    </div>
+                    <li class="p-reason">Our payment method is easy to use, direct and confidential. Your security is
+                      our
+                      priority. </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="d-none d-md-block">
+                  <ul class="reason">
+                    <div class="reason-hover">
+                      <i class="fas fa-check-circle"></i>
+                      <li class="reason-title">High Quality</li>
+                    </div>
+                    <li class="p-reason">We use fresh products, providing our costumers with the highest quality.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- END SECTION WHY CHOOSE US -->
+
+
+
+
+
+      </div>
+
+
+
+
+      <!-- MONTH SPECIAL -->
 
       <div class="columna-index">
 
@@ -115,7 +277,7 @@
           </form>
         </div>
 
-        <!-- MONTH SPECIAL -->
+
 
         <article id="index-special">
           <span>This month's Special:</span>
@@ -136,50 +298,16 @@
 
       <!-- END MONTH SPECIAL -->
 
+      <!-- img  of delivery -->
 
-      <!-- SECTION WHY CHOOSE US -->
-      <div class="why-choose">
-        <h2 class="subtitulo-1">Why choose us:</h2>
-
-        <div id="reason-container">
-          <ul class="reason">
-            <div class="reason-hover">
-              <i class="fas fa-truck"></i>
-              <li class="reason-title">#StayHome</li>
-            </div>
-            <li class="p-reason">Choose one of our breakfast boxes and we deliver it to all Switzerland for you.</li>
-          </ul>
-          <ul class="reason">
-            <div class="reason-hover">
-              <i class="fas fa-lock"></i>
-              <li class="reason-title">Secure Payment</li>
-            </div>
-            <li class="p-reason">Our payment method is easy to use, direct and confidential. Your security is our
-              priority. </li>
-          </ul>
-          <ul class="reason">
-            <div class="reason-hover">
-              <i class="fas fa-check-circle"></i>
-              <li class="reason-title">High Quality Products</li>
-            </div>
-            <li class="p-reason">We use fresh products, providing our costumers with the highest quality.</li>
-          </ul>
-        </div>
+      <div class="banner-indexdown">
+        <img src="https://i.postimg.cc/B6D71G4q/4225416.jpg" alt="delivery" />
       </div>
 
-      <!-- END SECTION WHY CHOOSE US -->
+      <!-- end img  of delivery -->
 
     </div>
-
-    <!-- END GRID -->
-
-    <!-- img  of delivery -->
-
-    <div class="banner-indexdown">
-      <img src="https://i.postimg.cc/B6D71G4q/4225416.jpg" alt="delivery" />
-    </div>
-
-    <!-- end img  of delivery -->
+    <!-- END RESPONSIVE COLUMN LAYOUT -->
 
   </main>
 
