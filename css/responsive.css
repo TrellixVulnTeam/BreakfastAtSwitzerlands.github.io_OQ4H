@@ -654,6 +654,21 @@
 
 
 
+    /* SITEMAP SECTION */
+
+    #sitemap-column {
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        margin: 2rem 0;
+    }
+
+    #sitemap-url {
+        margin: 180px auto;
+    }
+
+    /* END SITEMAP SECTION */
+
 
 }
 
