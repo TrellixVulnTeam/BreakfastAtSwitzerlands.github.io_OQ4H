@@ -524,6 +524,7 @@
 
     .responsive-column {
         display: flex;
+        height: 250px;
     }
 
     .responsive-pa {
