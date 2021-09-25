@@ -501,6 +501,55 @@
 
     /* END WHY CHOOSE SECTION */
 
+    /* SUGGESTION COLUMN */
+
+    .columna-index {
+        display: flex;
+        margin: 10px auto;
+        flex-direction: column;
+    }
+
+    #form-search {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.2rem;
+    }
+
+    .mysearch-button {
+        width: 25%;
+    }
+
+    .img-special {
+        width: 50%;
+        height: auto;
+        margin: 1.5rem auto;
+    }
+
+    #index-special p {
+        margin: 0 auto;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        width: 80%;
+    }
+
+    .special-button {
+        padding: 0.5rem;
+        margin: 0 auto;
+        margin: 1.5rem auto;
+    }
+
+    /* END SUGGESTION COLUMN */
+
+    .banner-indexdown img {
+        margin-top: 2rem;
+    }
+
+    .banner-hide {
+        display: initial;
+    }
+
 
 
 

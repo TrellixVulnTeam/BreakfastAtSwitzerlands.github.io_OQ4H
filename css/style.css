@@ -359,6 +359,11 @@ p {
 .banner-indexdown img {
     width: 100%;
     margin-top: -30px;
+    margin-bottom: -4rem;
+}
+
+.banner-hide {
+    display: none;
 }
 
 /* END INDEX */
