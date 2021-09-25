@@ -437,8 +437,11 @@
 
     /* TITLE */
 
-    .titles h1 {
-        font-size: 5rem;
+    #responsive-title {
+        font-size: 4rem;
+        background-image: url('https://i.postimg.cc/8cdFCc5z/banner-responsive.jpg');
+        height: 250px;
+        background-size: cover;
     }
 
     .boton-index {
@@ -545,7 +548,8 @@
     .img-special {
         width: 200px;
         height: 200px;
-        margin: 1.5rem;
+        margin: auto 1.5rem;
+        display: flex;
     }
 
     #index-special p {
@@ -654,9 +658,9 @@
 @media screen and (max-width:420px){
 
     .img-special {
-        width: 100px;
-        height: 100px;
-        margin: 1.5rem;
+        width: 150px;
+        height: 150px;
+        margin: 4rem 1.5rem;
     }
     
 }
