@@ -437,11 +437,13 @@
 
     /* TITLE */
 
-    #responsive-title {
+    #responsive-title h1 {
         font-size: 4rem;
         background-image: url('https://i.postimg.cc/8cdFCc5z/banner-responsive.jpg');
         height: 250px;
         background-size: cover;
+        display: flex;
+        flex-direction: column;
     }
 
     .boton-index {
