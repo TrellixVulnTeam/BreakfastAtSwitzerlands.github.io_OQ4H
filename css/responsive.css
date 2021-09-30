@@ -438,10 +438,11 @@
     /* TITLE */
 
     #responsive-title h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         background-image: url('https://i.postimg.cc/8cdFCc5z/banner-responsive.jpg');
         height: 250px;
-        background-size: cover;
+        background-size: 100%;
+        background-repeat: no-repeat;
         display: flex;
         flex-direction: column;
     }
@@ -662,6 +663,11 @@
         height: 150px;
         margin: 2rem 0;
     }
+
+
+    #sitemap-column h1 {
+        font-weight: 500;
+   }
 
     #sitemap-url {
         margin: 180px auto;
