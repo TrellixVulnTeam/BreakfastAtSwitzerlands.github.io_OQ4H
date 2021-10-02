@@ -7,12 +7,13 @@
 }
 
 
-/*! IMPORTS */
+/* IMPORTS */
 
 @import "header";
 @import "footer";
 @import "texts";
 @import "buttons";
+@import "variables";
 
 /*! Estilos Generales */
 
@@ -1042,4 +1043,10 @@ input[type=reset] {
 #sitemap-img img {
     width: 50%;
     height: auto;
+}
+
+.operaciones {
+    background-color: $orange;
+    width: $width*2;
+    margin: 25px;
 }

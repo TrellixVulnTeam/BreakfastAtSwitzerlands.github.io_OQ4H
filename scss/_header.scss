@@ -1,4 +1,4 @@
-    /* HEADER */
+    /*! HEADER */
     
     .head {
         height: 10rem;
@@ -7,7 +7,7 @@
         align-items: center;
         margin: 0 15px;
     }
-    /* Logo */
+    /*! Logo */
     
     .logo {
         img {
@@ -15,7 +15,7 @@
             width: 200px;
         }
     }
-    /* NAVIGATION MENU */
+    /*! NAVIGATION MENU */
     
     nav {
         flex-wrap: nowrap;
@@ -35,7 +35,7 @@
             }
         }
     }
-    /* BURGER MENU */
+    /*! BURGER MENU */
     
     .burger-menu {
         display: none;

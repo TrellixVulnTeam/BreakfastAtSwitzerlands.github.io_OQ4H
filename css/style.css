@@ -7,7 +7,7 @@
 }
 
 
-/*! IMPORTS */
+/*! HEADER */
 
 .head {
     height: 10rem;
@@ -17,10 +17,16 @@
     margin: 0 15px
 }
 
+
+/*! Logo */
+
 .logo img {
     max-width: 200px;
     width: 200px
 }
+
+
+/*! NAVIGATION MENU */
 
 nav {
     flex-wrap: nowrap
@@ -42,9 +48,15 @@ nav ul li a:hover {
     padding: 15px
 }
 
+
+/*! BURGER MENU */
+
 .burger-menu {
     display: none
 }
+
+
+/*! Footer */
 
 footer {
     max-width: 100%;
@@ -1124,4 +1136,10 @@ input[type=reset] {
 #sitemap-img img {
     width: 50%;
     height: auto
+}
+
+.operaciones {
+    background-color: #be6d10;
+    width: 200px;
+    margin: 25px
 }
