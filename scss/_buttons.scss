@@ -1,0 +1,10 @@
+@mixin buttons($bg, $color) {
+    background-color: $bg;
+    color: $color;
+    text-align: center;
+}
+
+.btn-hover:hover {
+    background-color: #FCBF49;
+    color: white;
+}
