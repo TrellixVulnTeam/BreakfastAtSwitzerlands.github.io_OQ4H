@@ -72,10 +72,10 @@
         flex-direction: column;
         align-content: space-between;
     }
-    #index-special h3 {
+    #index-special2 h3 {
         font-size: 3rem;
     }
-    #index-special p {
+    #index-special2 p {
         max-width: 40rem;
         text-align: center;
         line-height: normal;
@@ -460,12 +460,18 @@
         flex-direction: column;
         margin: auto 1rem;
     }
-    #index-special span {
-        padding: 0;
+    #index-special2 {
+        text-align: center;
+        border-top: 1px solid white;
     }
-    #index-special h3 {
+    #index-special2 span {
+        padding: 0;
+        font-size: 1.5rem;
+    }
+    #index-special2 h3 {
         font-size: 3rem;
         padding: 0.5rem;
+        border-bottom: 1px solid white;
     }
     .img-special {
         width: 200px;
@@ -473,7 +479,7 @@
         margin: auto 1.5rem;
         display: flex;
     }
-    #index-special p {
+    #index-special2 p {
         margin: 0 auto;
         font-size: 1.5rem;
         text-align: center;
