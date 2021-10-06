@@ -120,7 +120,7 @@
             margin: 2px 0;
         }
         
-        #mysearch {
+        .mysearch {
             outline: none;
             border: none;
             padding: 6px;
@@ -138,14 +138,14 @@
         }
         /*! special section */
         
-        #index-special {
-            span {
+        #index-special2 {
+            #sub-special {
                 font-size: 2rem;
                 padding-top: 2.5rem;
                 display: flex;
                 justify-content: center;
             }
-            h3 {
+            #title-special {
                 font-size: 4rem;
                 text-align: center;
                 padding: 1rem;

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Send a breakfast in Switzerland 🥐 Choose one of our combos and leave the rest to us. ¡We deliver to all CH!">
+    <meta name="keywords" content="breakfast, Switzerland, food, delivery, Swiss, gift, Zürich, Geneva, morning">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -13,8 +15,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;500&display=swap" rel="stylesheet">
 
+    <!-- Icon -->
+    <link rel="icon" href="https://i.postimg.cc/2ytZzptG/coffee.png" type="image/x-icon">
 
-    <title>Send a Breakfast in Switzerland</title>
+    <!-- Title -->
+    <title>Send a Breakfast in Switzerland!</title>
 </head>
 
 <body>
@@ -48,12 +53,12 @@
 
             <div class="burger-menu">
                 <button type="button" id="nav-btn" data-bs-toggle="dropdown">
-          <input id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value="" />
-          <label for="abrir-cerrar" class="toggle-button">
-            <span class="cerrar" title="Cerrar">Cerrar</span>
-            <span class="abrir" title="Abrir">Abrir</span>
-          </label>
-        </button>
+                    <input id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value="" />
+                    <label for="abrir-cerrar" class="toggle-button">
+                        <span class="cerrar" title="Cerrar">Cerrar</span>
+                        <span class="abrir" title="Abrir">Abrir</span>
+                    </label>
+                </button>
                 <ul class="dropdown-menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="paginas/about.html">About</a></li>
@@ -105,7 +110,7 @@
                     <!-- SEARCH ENGINE  -->
                     <div class="mysearch-engine">
                         <form id="form-search">
-                            <input type="search" role="search" id="mysearch" placeholder="Search">
+                            <input type="search" role="search" class="mysearch" placeholder="Search">
                             <button class="mysearch-button">Search</button>
                         </form>
                     </div>
@@ -113,8 +118,8 @@
                     <!-- MONTH SPECIAL -->
 
                     <article id="index-special">
-                        <span>This month's Special:</span>
-                        <h3>El Argento</h3>
+                        <span id="sub-special">This month's Special:</span>
+                        <h3 id="title-special">El Argento</h3>
 
                         <img src="https://i.postimg.cc/d1kPHXFX/el-argento1.jpg" alt="Mate con medialunas" class="img-special">
 
@@ -156,7 +161,8 @@
                                 <i class="fas fa-check-circle"></i>
                                 <li class="reason-title">High Quality</li>
                             </div>
-                            <li class="p-reason">We use fresh products, providing our costumers with the highest quality.</li>
+                            <li class="p-reason">We use fresh products, providing our costumers with the highest quality.
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -198,7 +204,7 @@
 
             <!-- SECTION WHY CHOOSE US -->
 
-            <div id="reason-container">
+            <div id="reason-container2">
 
                 <div class="why-choose">
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -206,54 +212,49 @@
 
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <div class="d-none d-md-block">
-                                    <ul class="reason">
-                                        <div class="reason-hover">
-                                            <i class="fas fa-truck"></i>
-                                            <li class="reason-title">#StayHome</li>
-                                        </div>
-                                        <li class="p-reason">Choose one of our breakfast boxes and we deliver it to all Switzerland for you.
-                                        </li>
-                                    </ul>
-                                </div>
+                                <ul class="reason">
+                                    <div class="reason-hover">
+                                        <i class="fas fa-truck"></i>
+                                        <li class="reason-title">#StayHome</li>
+                                    </div>
+                                    <li class="p-reason">Choose one of our breakfast boxes and we deliver it to all Switzerland for you.
+                                    </li>
+                                </ul>
                             </div>
 
 
+
                             <div class="carousel-item">
-                                <div class="d-none d-md-block">
-                                    <ul class="reason">
-                                        <div class="reason-hover">
-                                            <i class="fas fa-lock"></i>
-                                            <li class="reason-title">Secure Payment</li>
-                                        </div>
-                                        <li class="p-reason">Our payment method is easy to use, direct and confidential. Your security is our priority. </li>
-                                    </ul>
-                                </div>
+                                <ul class="reason">
+                                    <div class="reason-hover">
+                                        <i class="fas fa-lock"></i>
+                                        <li class="reason-title">Secure Payment</li>
+                                    </div>
+                                    <li class="p-reason">Our payment method is easy to use, direct and confidential. Your security is our priority. </li>
+                                </ul>
                             </div>
 
                             <div class="carousel-item">
-                                <div class="d-none d-md-block">
-                                    <ul class="reason">
-                                        <div class="reason-hover">
-                                            <i class="fas fa-check-circle"></i>
-                                            <li class="reason-title">High Quality</li>
-                                        </div>
-                                        <li class="p-reason">We use fresh products, providing our costumers with the highest quality.</li>
-                                    </ul>
-                                </div>
+                                <ul class="reason">
+                                    <div class="reason-hover">
+                                        <i class="fas fa-check-circle"></i>
+                                        <li class="reason-title">High Quality</li>
+                                    </div>
+                                    <li class="p-reason">We use fresh products, providing our costumers with the highest quality.
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-
                 </div>
-
-                <!-- END SECTION WHY CHOOSE US -->
-
-
-
-
-
             </div>
+
+            <!-- END SECTION WHY CHOOSE US -->
+
+
+
+
+
 
 
 
@@ -265,15 +266,15 @@
 
                 <!-- SEARCH ENGINE  -->
                 <div class="mysearch-engine">
-                    <form id="form-search">
-                        <input type="search" role="search" id="mysearch" placeholder="Search">
+                    <form id="form-search2">
+                        <input type="search" role="search" class="mysearch" placeholder="Search">
                         <button class="mysearch-button">Search</button>
                     </form>
                 </div>
 
 
 
-                <article id="index-special">
+                <article id="index-special2">
                     <span>This month's Special:</span>
                     <h3>El Argento</h3>
 
@@ -304,8 +305,6 @@
         </div>
 
         <!-- end img  of delivery -->
-
-        </div>
         <!-- END RESPONSIVE COLUMN LAYOUT -->
 
     </main>
@@ -313,7 +312,7 @@
     <footer>
         <div id="foot">
             <ul>
-                <li><a href="#">LEGAL</a></li>
+                <li><a href="index.html">LEGAL</a></li>
                 <li><a href="paginas/Contact.html">CONTACT</a></li>
                 <li><a href="paginas/sitemap.html">SITE MAP</a></li>
             </ul>
