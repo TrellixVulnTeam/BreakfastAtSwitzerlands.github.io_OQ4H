@@ -223,7 +223,7 @@
         -ms-grid-rows: 0.5fr 0px 1fr;
         grid-template-rows: 0.5fr 1fr;
         gap: 0px 0px;
-        grid-template-areas: "contact-column1 contact-column1" "contact-form contenedor-imgabout";
+        grid-template-areas: "contact-column1 contact-column1" "contact-form contact-img";
         margin: 0;
         height: 800px;
     }
@@ -245,7 +245,7 @@
         display: inline-flex;
         align-items: center;
         justify-content: space-around;
-        margin: auto;
+        margin: 15px auto;
     }
     .data {
         display: flex;
@@ -266,9 +266,6 @@
     /* End form */
     /* Logo */
     .contenedor-imgabout {
-        -ms-grid-row: 3;
-        -ms-grid-column: 3;
-        grid-area: contenedor-imgabout;
         position: initial;
         width: auto;
         height: auto;
@@ -276,8 +273,11 @@
         margin: auto;
     }
     .contact-img {
+        -ms-grid-row: 3;
+        -ms-grid-column: 3;
         height: auto;
         padding: 0;
+        grid-area: contact-img;
         width: 70%;
     }
     /* End Logo */
@@ -290,7 +290,7 @@
 
 /* MEDIA SCREEN MAX 879PX */
 
-@media screen and (max-width: 879px) {
+@media screen and (max-width: 879px) and (min-width: 421px) {
     .nav-horizontal {
         display: none;
     }
@@ -370,20 +370,26 @@
     /* TITLE */
     #responsive-title {
         font-size: 0.5rem;
-        min-height: 30vh;
-        display: flex;
+        min-height: 15vh;
+        height: 15vh;
+        margin-bottom: 0;
+        height: 150px;
+    }
+    #responsive-title .titulo {
+        font-size: 2.5rem;
     }
     .boton-index {
-        width: 150px;
-        height: 45px;
-        padding: 10px;
+        width: 100px;
+        height: 30px;
+        padding: 5px;
         margin: 0;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         text-align: center;
     }
     .titulo,
     .boton-index {
         margin-left: 2rem;
+        opacity: 100%;
     }
     /* END TITLE */
     /* DINGDONG SECTION */
@@ -488,8 +494,8 @@
         margin-bottom: 10px;
     }
     .special-button {
-        padding: 0.5rem;
-        margin: 0.5rem auto;
+        padding: 5px;
+        margin: 5px auto;
         font-size: 1.7rem;
     }
     /* END SUGGESTION COLUMN */
@@ -566,6 +572,18 @@
         width: 30%;
     }
     /* END OUR PRODUCTS SECTION */
+    /* CART SECTION */
+    #title-cart {
+        min-height: 15vh;
+        margin: 0;
+        height: 20vh;
+        background-image: url('https://i.postimg.cc/rwSZw48P/banner10-min.jpg');
+    }
+    #title-cart h1 {
+        margin-left: 2rem;
+        font-size: 5rem;
+    }
+    /* END CART SECTION */
     /* SITEMAP SECTION */
     #sitemap-column {
         position: absolute;
@@ -587,10 +605,6 @@
         width: 150px;
         height: 150px;
         margin: 4rem 1.5rem;
-    }
-    #responsive-titles {
-        background-image: none;
-        width: 10px;
     }
     /* OUR PRODUCTS SECTION */
     #title-products {
