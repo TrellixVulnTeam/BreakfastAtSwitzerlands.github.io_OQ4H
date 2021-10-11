@@ -369,7 +369,6 @@
     }
     /* TITLE */
     #responsive-title {
-        background-image: url(../medios/banner/banner8-min3.jpg);
         font-size: 0.5rem;
         min-height: 30vh;
         display: flex;
@@ -584,20 +583,6 @@
 }
 
 @media screen and (max-width:420px) {
-    /* INDEX */
-    #responsive-title {
-        font-size: 1rem;
-        background-image: url(../medios/banner/banner8-min2.jpg);
-    }
-    #responsive-title h1 {
-        font-size: 2rem;
-    }
-    .boton-index {
-        font-size: 1.2rem;
-        padding: 5px;
-        width: 130px;
-        height: 30px;
-    }
     .img-special {
         width: 150px;
         height: 150px;
