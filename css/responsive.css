@@ -187,12 +187,6 @@
     #title-products h1 {
         font-size: 5rem;
     }
-    .products-title {
-        font-size: 1.5rem;
-        letter-spacing: 0.5px;
-        max-height: 90vh;
-        padding: 1rem 0.5rem;
-    }
     .disclaimer {
         width: 30%;
         margin-top: 0;
@@ -200,18 +194,44 @@
         font-size: 1.7rem;
         line-height: 25px;
     }
+    .products-title {
+        font-size: 1.5rem;
+        letter-spacing: 0.5px;
+        max-height: 90vh;
+        padding: 1rem 0.5rem;
+        margin-top: 15px;
+    }
     .container-products {
-        display: flex;
-        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas: "Product-1 Product-2" "Product-3 Product-4" "Product-5 Product-6" "Product-7 Product-8" "Product-9 Product-9";
+    }
+    .container-products>* {
+        padding: 5px 0;
+    }
+    .container-products> :hover {
+        transform: scale(1.05, 1.05);
     }
     .products {
         font-size: 1.5rem;
         line-height: 20px;
-        margin: 10px auto
+        margin: 5px auto;
+        width: 80%;
     }
-    .Product-5 .products-title {
-        font-size: 1.2rem;
-        letter-spacing: 0;
+    [class*="Product"] {
+        width: 90%;
+        height: min-content;
+        max-height: 100%;
+    }
+    .box {
+        height: 60%;
+    }
+    .img-product img {
+        width: 60%;
+    }
+    .a-products {
+        margin: 1rem auto;
     }
     /* END OUR PRODUCTS SECTION */
     /* CONTACT SECTION */
@@ -564,6 +584,15 @@
         line-height: 25px;
         margin-top: 0;
         width: 30%;
+    }
+    /* END OUR PRODUCTS SECTION */
+    /* OUR PRODUCTS SECTION */
+    .container-products {
+        display: flex;
+        flex-direction: column;
+    }
+    .box {
+        flex-direction: row;
     }
     /* END OUR PRODUCTS SECTION */
     /* SITEMAP SECTION */

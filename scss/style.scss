@@ -653,6 +653,14 @@
         /*! PRODUCTS GRID */
         
         .container-products {
+            >* {
+                padding: 20px 0;
+                border: 1px solid #003049;
+                transition: all .2s ease-in-out;
+                &:hover {
+                    transform: scale(1.1, 1.1);
+                }
+            }
             display: -ms-grid;
             display: grid;
             -ms-grid-columns: 1fr 2% 1fr 2% 1fr;
@@ -719,19 +727,6 @@
             grid-area: Product-9;
         }
         /*! GRID ELEMENT STYLING */
-        /*! SCALE */
-        
-        .container-products {
-            >* {
-                padding: 20px 0;
-                border: 1px solid #003049;
-                transition: all .2s ease-in-out;
-                &:hover {
-                    transform: scale(1.1, 1.1);
-                }
-            }
-        }
-        /*! END SCALE */
         /*! CARDS STYLING */
         
         .box {
