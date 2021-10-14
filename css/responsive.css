@@ -645,6 +645,9 @@
     .products-main {
         margin: 0;
     }
+    .back-btn {
+        width: 400px;
+    }
     /* END OUR PRODUCTS SECTION */
     /* OUR PRODUCTS SECTION */
     .container-products {
