@@ -615,6 +615,11 @@
     }
     .products-title {
         grid-area: products-title;
+        height: 80px;
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .img-product {
         grid-area: img-product;
@@ -679,18 +684,16 @@
         margin: 0;
     }
     #title-products h1 {
-        font-size: 2.5rem;
-    }
-    .products-title {
-        font-size: 1rem;
-        letter-spacing: 0.5px;
-        padding: 1rem 0.5rem;
+        font-size: 3rem;
     }
     .disclaimer {
-        width: 30%;
         margin-top: 0;
         font-weight: 400;
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         line-height: 15px;
+    }
+    .products {
+        padding: 0;
+        margin: 0;
     }
 }
