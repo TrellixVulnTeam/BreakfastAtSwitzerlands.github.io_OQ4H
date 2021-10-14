@@ -594,11 +594,49 @@
         min-height: 30vh;
     }
     .disclaimer {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         font-weight: 400;
         line-height: 25px;
         margin-top: 0;
-        width: 30%;
+        width: 40%;
+    }
+    .box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.3fr 0.7fr 0.3fr;
+        gap: 0px 0px;
+        grid-template-areas: "products-title products-title" "img-product products" "a-products a-products";
+        height: 500px;
+    }
+    [class*="Product"] {
+        padding: 0;
+        margin: 20px auto;
+        height: 30%;
+    }
+    .products-title {
+        grid-area: products-title;
+    }
+    .img-product {
+        grid-area: img-product;
+        width: 110%;
+    }
+    .products {
+        grid-area: products;
+    }
+    .a-products {
+        grid-area: a-products;
+        display: flex;
+        justify-content: center;
+        margin: 15px auto;
+    }
+    .container-products> :hover {
+        transform: none;
+    }
+    .month-special {
+        display: none;
+    }
+    .products-main {
+        margin: 0;
     }
     /* END OUR PRODUCTS SECTION */
     /* OUR PRODUCTS SECTION */
