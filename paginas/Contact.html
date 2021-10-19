@@ -52,12 +52,12 @@
 
             <div class="burger-menu">
                 <button type="button" id="nav-btn" data-bs-toggle="dropdown">
-          <input id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value="" />
-          <label for="abrir-cerrar" class="toggle-button">
-            <span class="cerrar" title="Cerrar">Cerrar</span>
-            <span class="abrir" title="Abrir">Abrir</span>
-          </label>
-        </button>
+                    <input id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value="" />
+                    <label for="abrir-cerrar" class="toggle-button">
+                        <span class="cerrar" title="Cerrar">Cerrar</span>
+                        <span class="abrir" title="Abrir">Abrir</span>
+                    </label>
+                </button>
                 <ul class="dropdown-menu">
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
@@ -108,24 +108,21 @@
 
             <!-- end column left -->
 
+            <!-- Form -->
 
-            <!-- formulario -->
-
-            <form id="contact-form" action="get">
-                <div class="text">
-                    <label for="name"></label>
-                    <input type="text" class="text" placeholder="Name" required>
-
-                    <label for="email"></label>
-                    <input type="email" class="text" placeholder="Email" required>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="name" class="form-control" id="name">
                 </div>
-
-
-
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
                 <div class="canton">
                     <label for="canton" id="canton-title">Select your Canton</label>
-                    <select name="canton" id="canton" required>
-                        <option value="AG">Aargau</option>
+                    <select name="canton" id="canton" required class="custom-select">
+                        <option selected value="AG">Aargau</option>
                         <option value="AI">Appenzell Inner-Rhodes</option>
                         <option value="AR">Appenzell Outer-Rhodes</option>
                         <option value="BS">Basel</option>
@@ -153,40 +150,48 @@
                     </select>
                 </div>
 
-                <div class="check-form radio-form">
+                <div class="custom-control">
                     <span id="query">What's your query about</span>
-                    <div class="radio-buttons">
-                        <label class="radio-container">
-                            <input type="radio" name="checkmark" value="information"> General information
-                            <span class="checkmark"></span>
-                        </label>
-                        <label class="radio-container">
-                            <input type="radio" name="checkmark" value="promotions"> Promotions
-                            <span class="checkmark"></span>
-                        </label>
-                        <label class="radio-container">
-                            <input type="radio" name="checkmark" value="payment"> Payment and cart
-                            <span class="checkmark"></span>
-                        </label>
-                    </div>
-                </div>
 
+                    <div class="radio-btns">
+                        <div class="radio-container">
+                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio1">General information</label>
+                        </div>
+
+                        <div class="radio-container">
+                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio2">Promotions and products</label>
+                        </div>
+
+                        <div class="radio-container">
+                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio2">Payment and shipping</label>
+                        </div>
+
+                    </div>
+
+                </div>
 
                 <textarea name="mensaje" id="mensaje" cols="70" rows="5" placeholder="Place your message here"></textarea>
 
-                <label class="container-newsletter" id="newsletter">Sign me up for the Newsletter
-                    <input type="checkbox" name="newsletter">
-                    <span class="checkmark1"></span>
-                </label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input shadow-none" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Sign me up for the Newsletter</label>
+                </div>
 
                 <div class="s-r-buttons">
-                    <label for="submit"></label>
-                    <input type="submit" class="button-form" value="SUBMIT">
+                    <button type="submit" class="sr-btn btn ">SUBMIT</button>
 
                     <label for="reset"></label>
-                    <input type="reset" class="button-form" value="RESET">
+                    <input type="reset" class="sr-btn btn" value="RESET">
                 </div>
+
             </form>
+
+            <!-- End Form -->
+
+
 
 
             <!-- img right -->
@@ -207,23 +212,6 @@
                 <li><a href="sitemap.html">SITE MAP</a></li>
             </ul>
 
-
-            <!-- <div id="social-media">
-          <ul>
-            <li class="media-icon">
-              <a href="#">
-              </a>
-            </li>
-            <li class="media-icon">
-              <a href="#">
-              </a>
-            </li>
-            <li class="media-icon">
-              <a href="#">
-              </a>
-            </li>
-          </ul>
-        </div> -->
 
         </div>
     </footer>
