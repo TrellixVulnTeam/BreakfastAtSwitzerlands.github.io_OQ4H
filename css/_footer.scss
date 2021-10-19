@@ -1,0 +1,23 @@
+/*! Footer */
+
+footer {
+    max-width: 100%;
+    background-color: #d62828;
+    margin-top: 5rem;
+}
+
+#foot {
+    ul {
+        justify-content: center;
+        display: flex;
+        margin: 0;
+    }
+    li {
+        padding: 1.5rem 3rem;
+        a {
+            color: white;
+            font-weight: 700;
+            font-size: 1.8rem;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+    /*! HEADER */
+    
+    .head {
+        height: 10rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 15px;
+    }
+    /*! Logo */
+    
+    .logo {
+        img {
+            max-width: 200px;
+            width: 200px;
+        }
+    }
+    /*! NAVIGATION MENU */
+    
+    nav {
+        flex-wrap: nowrap;
+        ul {
+            li {
+                text-transform: uppercase;
+                display: inline-block;
+                a {
+                    padding: 15px;
+                    font-size: 1.9rem;
+                    &:hover {
+                        background-color: #FCBF49;
+                        color: white;
+                        padding: 15px;
+                    }
+                }
+            }
+        }
+    }
+    /*! BURGER MENU */
+    
+    .burger-menu {
+        display: none;
+    }
