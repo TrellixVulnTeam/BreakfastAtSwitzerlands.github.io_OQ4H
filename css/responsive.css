@@ -39,6 +39,7 @@
     .titles {
         min-height: 40vh;
         background-size: initial;
+        background-attachment: initial;
     }
     /* INDEX */
     .subtitulo-1 {
@@ -694,7 +695,7 @@
         flex-direction: column;
     }
     .box {
-        flex-direction: row;
+        margin-top: 0;
     }
     /* END OUR PRODUCTS SECTION */
     /* SITEMAP SECTION */
