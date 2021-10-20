@@ -1,3 +1,27 @@
+@media screen and (max-width:1355px) {
+    /*! OUR PRODUCTOS - BACK TO TOP BUTTON */
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 80px;
+        right: 20px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: rgb(177, 173, 173);
+        color: white;
+        cursor: pointer;
+        padding: 5px 20px;
+        border-radius: 10px;
+        font-size: 30px;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+    #myBtn:hover {
+        background-color: #555;
+    }
+    /*! END BACK TO TOP BUTTON */
+}
+
 @media screen and (max-width:1355px) and (min-width:880px) {
     /* GENERALES */
     .titles h1 {
@@ -213,6 +237,7 @@
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         gap: 0px 0px;
         grid-template-areas: "Product-1 Product-2" "Product-3 Product-4" "Product-5 Product-6" "Product-7 Product-8" "Product-9 Product-9";
+        margin-left: 150px;
     }
     .container-products>* {
         padding: 10px 0;
@@ -233,7 +258,7 @@
     .Product-9 {
         width: 40%;
         display: flex;
-        margin: 0 auto;
+        margin: 0 250px;
         margin-top: 15px;
     }
     .month-special {
@@ -245,12 +270,27 @@
     .a-products {
         margin: 1rem auto;
     }
-    .back-btn {
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-        width: 350px;
+    /*! BACK TO TOP BUTTON */
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 80px;
+        right: 20px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: rgb(177, 173, 173);
+        color: white;
+        cursor: pointer;
+        padding: 5px 20px;
+        border-radius: 10px;
+        font-size: 30px;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     }
+    #myBtn:hover {
+        background-color: #555;
+    }
+    /*! END BACK TO TOP BUTTON */
     /* END OUR PRODUCTS SECTION */
     /* CONTACT SECTION */
     #contact-container {
