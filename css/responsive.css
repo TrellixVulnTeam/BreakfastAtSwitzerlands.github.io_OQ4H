@@ -727,10 +727,6 @@
         width: 10px;
     }
     /*! OUR PRODUCTS SECTION */
-    #title-products {
-        margin: 0;
-        min-height: 15vh;
-    }
     #title-products h1 {
         font-size: 3.5rem;
     }
