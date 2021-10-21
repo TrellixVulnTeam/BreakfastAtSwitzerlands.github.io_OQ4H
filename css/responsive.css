@@ -281,7 +281,7 @@
         -ms-grid-rows: 0.5fr 0px 1fr;
         grid-template-rows: 0.1fr 0.5fr;
         gap: 0px 0px;
-        grid-template-areas: "contact-column1 contact-column1" "contact-form contenedor-imgabout";
+        grid-template-areas: "contact-column1 contact-column1" "contact-form contact-form";
         margin: 0;
         height: 800px;
     }
@@ -320,23 +320,26 @@
         -ms-grid-column: 1;
         grid-area: contact-form;
         height: auto;
+        width: 750px;
+        margin: 2rem auto;
     }
     /*! End form */
-    /*! Logo */
+    /*! IMG */
     .contenedor-imgabout {
-        -ms-grid-row: 3;
-        -ms-grid-column: 3;
-        grid-area: contenedor-imgabout;
+        display: none;
     }
-    .contact-img {
-        height: auto;
-        padding: 0;
-        width: 20%;
-    }
-    /*! End Logo */
     #img-contacto {
         display: none;
     }
+    .contact-bottomimg {
+        display: initial;
+    }
+    .contact-bottomimg img {
+        width: 100%;
+        height: auto;
+        margin-top: 10rem;
+    }
+    /*! END IMG  */
     /*! END CONTACT SECTION */
 }
 
