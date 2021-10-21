@@ -317,7 +317,7 @@
             width: 25%;
             display: flex;
             flex-direction: column;
-            height: 700px;
+            height: 800px;
         }
         
         .border-contact {
@@ -370,16 +370,16 @@
         
         #img-contacto {
             img {
-                height: 700px;
                 width: 50rem;
+                height: 800px;
             }
         }
         /*! END IMG RIGHT */
         /*! FORM */
         
         #contact-form {
-            width: 650px;
-            margin: 10px 20px;
+            width: 50%;
+            padding: 10px 5%;
             font-size: 1.5rem;
         }
         /*! NAME AND EMAIL */
@@ -397,6 +397,7 @@
             font-size: 1.5rem;
             border: 2px solid #D9CC81;
             border-radius: 10px;
+            margin-left: 30px;
         }
         /*! END NAME AND EMAIL */
         /*! SELECT YOUR CANTON */
