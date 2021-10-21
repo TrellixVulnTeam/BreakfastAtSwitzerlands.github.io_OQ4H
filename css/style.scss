@@ -46,7 +46,7 @@
         }
         
         .titles {
-            background-image: url('https://i.postimg.cc/BZDGtZqR/banner4-min.jpg');
+            background-image: url('https://i.postimg.cc/tRxsYbgz/banner-index-full.jpg');
             height: auto;
             min-height: 60vh;
             background-size: 100%;
@@ -55,6 +55,7 @@
             flex-direction: column;
             justify-content: center;
             background-attachment: fixed;
+            background-position-y: bottom;
         }
         
         .titulo,
@@ -529,9 +530,8 @@
         }
         
         #title-products {
-            background-image: url('https://i.postimg.cc/jSHNHxmD/banner9-min-min.jpg');
+            background-image: url('https://i.postimg.cc/gkbnh7Xb/banner-products-full.jpg');
             margin-bottom: 9rem;
-            background-position-y: center;
             h1 {
                 margin-left: 4rem;
             }
@@ -723,7 +723,7 @@
         /*! CART PAGE */
         
         #title-cart {
-            background-image: url('https://i.postimg.cc/rwSZw48P/banner10-min.jpg');
+            background-image: url('https://i.postimg.cc/9FPzYBZR/banner-cart-full.jpg');
             height: 55vh;
             h1 {
                 margin-left: 5rem;
