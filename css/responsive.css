@@ -575,7 +575,7 @@
     .about-column1 {
         grid-area: about-column1;
         width: 100%;
-        height: 150px;
+        height: 20vh;
         margin-bottom: 10px;
     }
     /*! End About title */
@@ -615,7 +615,7 @@
         font-size: 0.5rem;
         min-height: 25vh;
         display: flex;
-        background-image: url("https://i.postimg.cc/Wbq2fvnR/products-laptop.jpg");
+        background-image: url("https://i.postimg.cc/YCZFnsSn/products-laptop.jpg");
         background-attachment: initial;
         background-size: cover;
         margin-bottom: 2rem;
