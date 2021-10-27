@@ -795,8 +795,12 @@
     .cart-section1 p {
         font-size: 1.5rem;
     }
-    .special-button {
-        font-size: 1.5rem;
+    .carousel-item {
+        height: 500px;
+    }
+    .carousel-item img {
+        height: auto;
+        width: 100%;
     }
     .cart-section2 {
         max-width: 100%;
