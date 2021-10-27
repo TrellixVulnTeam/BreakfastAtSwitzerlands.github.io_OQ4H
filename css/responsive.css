@@ -20,6 +20,75 @@
         background-color: #555;
     }
     /*! END BACK TO TOP BUTTON */
+    /*! CONTACT SECTION */
+    #contact-container {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 0px 1fr;
+        grid-template-columns: 1fr 1fr;
+        -ms-grid-rows: 0.5fr 0px 1fr;
+        grid-template-rows: 0.1fr 0.5fr;
+        gap: 0px 0px;
+        grid-template-areas: "contact-column1 contact-column1" "contact-form contact-form";
+        margin: 0;
+        height: 800px;
+    }
+    /*! Contact Us Title */
+    .contact-column1 {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-area: contact-column1;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        margin: 0;
+    }
+    .border-contact {
+        width: 100%;
+        padding: 50px;
+        height: 120px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 15px auto;
+    }
+    .data {
+        display: flex;
+        flex-direction: column;
+    }
+    #contact-title {
+        font-size: 5rem;
+        margin: 0;
+    }
+    /*! End Contact Us Title */
+    /*! Form */
+    #contact-form {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+        grid-area: contact-form;
+        height: auto;
+        width: 80%;
+        margin: 2rem auto;
+    }
+    /*! End form */
+    /*! IMG */
+    .contenedor-imgabout {
+        display: none;
+    }
+    #img-contacto {
+        display: none;
+    }
+    .contact-bottomimg {
+        display: initial;
+    }
+    .contact-bottomimg img {
+        width: 100%;
+        height: auto;
+        margin-top: 10rem;
+    }
+    /*! END IMG  */
+    /*! END CONTACT SECTION */
 }
 
 @media screen and (max-width:1355px) and (min-width:880px) {
@@ -272,75 +341,6 @@
         margin: 1rem auto;
     }
     /*! END OUR PRODUCTS SECTION */
-    /*! CONTACT SECTION */
-    #contact-container {
-        display: -ms-grid;
-        display: grid;
-        -ms-grid-columns: 1fr 0px 1fr;
-        grid-template-columns: 1fr 1fr;
-        -ms-grid-rows: 0.5fr 0px 1fr;
-        grid-template-rows: 0.1fr 0.5fr;
-        gap: 0px 0px;
-        grid-template-areas: "contact-column1 contact-column1" "contact-form contact-form";
-        margin: 0;
-        height: 800px;
-    }
-    /*! Contact Us Title */
-    .contact-column1 {
-        -ms-grid-row: 1;
-        -ms-grid-column: 1;
-        -ms-grid-column-span: 3;
-        grid-area: contact-column1;
-        width: 100%;
-        height: 150px;
-        display: flex;
-        margin: 0;
-    }
-    .border-contact {
-        width: 100%;
-        padding: 50px;
-        height: 120px;
-        display: inline-flex;
-        align-items: center;
-        justify-content: space-around;
-        margin: 15px auto;
-    }
-    .data {
-        display: flex;
-        flex-direction: column;
-    }
-    #contact-title {
-        font-size: 5rem;
-        margin: 0;
-    }
-    /*! End Contact Us Title */
-    /*! Form */
-    #contact-form {
-        -ms-grid-row: 3;
-        -ms-grid-column: 1;
-        grid-area: contact-form;
-        height: auto;
-        width: 80%;
-        margin: 2rem auto;
-    }
-    /*! End form */
-    /*! IMG */
-    .contenedor-imgabout {
-        display: none;
-    }
-    #img-contacto {
-        display: none;
-    }
-    .contact-bottomimg {
-        display: initial;
-    }
-    .contact-bottomimg img {
-        width: 100%;
-        height: auto;
-        margin-top: 10rem;
-    }
-    /*! END IMG  */
-    /*! END CONTACT SECTION */
 }
 
 
@@ -634,6 +634,7 @@
         gap: 0px 0px;
         grid-template-areas: "products-title products-title" "img-product products" "a-products a-products";
         height: auto;
+        margin-top: 0;
     }
     [class*="Product"] {
         padding: 0;
@@ -676,14 +677,9 @@
     .back-btn {
         width: 300px;
     }
-    /*! END OUR PRODUCTS SECTION */
-    /*! OUR PRODUCTS SECTION */
     .container-products {
         display: flex;
         flex-direction: column;
-    }
-    .box {
-        margin-top: 0;
     }
     /*! END OUR PRODUCTS SECTION */
     /*! CART SECTION */
@@ -696,6 +692,25 @@
         background-size: cover;
     }
     /*! END CART SECTION */
+    /*! CONTACT SECTION */
+    #contact-title {
+        font-size: 2rem;
+    }
+    .border-contact {
+        padding: 10px;
+    }
+    #contact-form {
+        padding: 0;
+        font-size: 1.2rem;
+    }
+    #query {
+        width: 45%;
+        height: 50%;
+    }
+    .radio-btns {
+        margin-left: 5px;
+    }
+    /*! END CONTACT SECTION */
     /*! SITEMAP SECTION */
     #sitemap-column {
         position: absolute;
@@ -745,4 +760,20 @@
         margin-top: 10px;
     }
     /*! END OUR PRODUCTS SECTION */
+    /*! CONTACT SECTION */
+    .contact-data {
+        font-size: 1rem;
+    }
+    .contact-data li {
+        line-height: 25px;
+    }
+    .border-contact {
+        padding: 5px;
+    }
+    /*! END CONTACT SECTION */
+    /*! FOOTER */
+    #foot ul li a {
+        font-size: 1rem;
+    }
+    /*! END FOOTER */
 }
