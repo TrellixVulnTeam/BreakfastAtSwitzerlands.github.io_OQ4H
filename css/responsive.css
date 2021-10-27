@@ -792,6 +792,10 @@
     }
     /*! END CONTACT SECTION */
     /*! CART SECTION */
+    .cart-section1 {
+        max-height: 700 px;
+        height: 100%
+    }
     .cart-section1 p {
         font-size: 1.5rem;
     }
@@ -804,6 +808,11 @@
     }
     .cart-section2 {
         max-width: 100%;
+        HEIGHT: 400px;
+    }
+    .cart-section2 h2 {
+        font-size: 2rem;
+        text-align: center;
     }
     /*! END CART SECTION */
     /*! FOOTER */
