@@ -575,7 +575,7 @@
     .about-column1 {
         grid-area: about-column1;
         width: 100%;
-        height: 40vh;
+        height: 20vh;
         margin-bottom: 10px;
     }
     /*! End About title */
