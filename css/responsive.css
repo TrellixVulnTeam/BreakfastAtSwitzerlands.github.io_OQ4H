@@ -732,6 +732,9 @@
     }
     /*! END CART SECTION */
     /*! SITEMAP SECTION */
+    #sitemap-main {
+        height: 70rem;
+    }
     #sitemap-column {
         position: absolute;
         width: 100%;
@@ -742,7 +745,12 @@
         font-weight: 500;
     }
     #sitemap-url {
-        margin: 180px auto;
+        width: 100%;
+    }
+    .sitemap-a {
+        font-size: 2.5rem;
+        margin: 1 rem;
+        padding: 10 px;
     }
     /*! END SITEMAP SECTION */
 }
